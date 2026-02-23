@@ -6,7 +6,7 @@ library(speechcollectr)
 addResourcePath(
   prefix = "lineups",
   directoryPath = normalizePath(
-    "/Users/dinuwanthiliyanage/Library/CloudStorage/OneDrive-UniversityofNebraska/Research UNL/Research-graphical-perception/Images",
+    "Images",
     winslash = "/",
     mustWork = TRUE
   )
@@ -15,12 +15,12 @@ addResourcePath(
 ui <- tagList(
   useShinyjs(),
   useRecorder(),
-  
+
   # load CSS
   tags$head(
     tags$link(rel = "stylesheet", type = "text/css", href = "styles.css")
   ),
-  
+
   # hide tabs before JS runs
   tags$head(tags$style(HTML('
     #topnav li a[data-value="Talk"],
@@ -29,32 +29,35 @@ ui <- tagList(
       display: none;
     }
   '))),
-  
   navbarPage(
     title = "Perception of Statistical Graphics",
     id = "topnav",
     selected = "Consent",
-    
-   
+
+
     # Consent
     tabPanel(
-      "Informed Consent", value = "Consent",
+      "Informed Consent",
+      value = "Consent",
       fluidPage(
-        div(class = "consent-page",
-            
-            tags$div(class = "consent-main-title",
-                     "Perception and Decision Making Using Statistical Graphs"),
-            
-            # Horizontal line
-            tags$div(class = "consent-divider"),
-            
-            # Subtitle under the line
-            tags$div(class = "consent-subtitle",
-                     "Participant Consent"),
-            
-            div(class = "consent-section",
-                
-                HTML("
+        div(
+          class = "consent-page",
+          tags$div(
+            class = "consent-main-title",
+            "Perception and Decision Making Using Statistical Graphs"
+          ),
+
+          # Horizontal line
+          tags$div(class = "consent-divider"),
+
+          # Subtitle under the line
+          tags$div(
+            class = "consent-subtitle",
+            "Participant Consent"
+          ),
+          div(
+            class = "consent-section",
+            HTML("
       <h4>IRB Project ID #: 20178 </h4>
       <h4>Invitation:</h4>
       <p>This study is intended to assess how people perceive statistical graphs and charts, and how charts are used to make decisions. You may participate in this study if:</p>
@@ -110,142 +113,149 @@ ui <- tagList(
       <h4>Documentation of Informed Consent</h4>
       <p>You are voluntarily making a decision whether or not to participate in this research study. By clicking on the I Agree button below, your consent to participate is implied. </p>
       ")
-                ),
-            
-            
-            tags$div(class = "consent-divider"),
-            
-            div(class = "consent-actions",
-               
-                tags$strong("I have read the informed consent document and agree to participate in this experiment"),
-                br(), br(),
-                checkboxInput(
-                  "consent_choice",
-                  "I agree. You may save my data.",
-                  value = FALSE
-                ),
-                
-                actionButton("consent_continue", "Continue", class = "btn btn-primary")
-            )
+          ),
+          tags$div(class = "consent-divider"),
+          div(
+            class = "consent-actions",
+            tags$strong("I have read the informed consent document and agree to participate in this experiment"),
+            br(), br(),
+            checkboxInput(
+              "consent_choice",
+              "I agree. You may save my data.",
+              value = FALSE
+            ),
+            actionButton("consent_continue", "Continue", class = "btn btn-primary")
+          )
         )
       )
     ),
-                
-    
+
+
     # Lineup landing page
     tabPanel(
-      "Lineup Study", value = "Lineup",
+      "Lineup Study",
+      value = "Lineup",
       fluidPage(
-        div(class="hero",
-            div(class="hero-title", "Which plot is the most different?"),
-            div(class="hero-sub",
-                "You’ll complete 12 short trials. Each trial shows a lineup of 20 plots. ",
-                "Your goal is to identify the panel that stands out and complete a short task."
-            )
+        div(
+          class = "hero",
+          div(class = "hero-title", "Which plot is the most different?"),
+          div(
+            class = "hero-sub",
+            "You’ll complete 12 short trials. Each trial shows a lineup of 20 plots. ",
+            "Your goal is to identify the panel that stands out and complete a short task."
+          )
         ),
-        
         fluidRow(
           column(
             width = 10, offset = 1,
-            
-            div(class="task-card",
-                tags$div(style="font-size:19px; font-weight:800; margin-bottom:10px;",
-                         "How the study works"),
-                tags$ol(class="step-list",
-                        tags$li(tags$b("Click Start the experiment"), " to begin Trial 1."),
-                        tags$li("Each trial shows a lineup of ", tags$b("20 panels"), " (numbered 1–20)."),
-                        tags$li("Choose the panel that looks ", tags$b("most different"), ".")
-                )
+            div(
+              class = "task-card",
+              tags$div(
+                style = "font-size:19px; font-weight:800; margin-bottom:10px;",
+                "How the study works"
+              ),
+              tags$ol(
+                class = "step-list",
+                tags$li(tags$b("Click Start the experiment"), " to begin Trial 1."),
+                tags$li("Each trial shows a lineup of ", tags$b("20 panels"), " (numbered 1–20)."),
+                tags$li("Choose the panel that looks ", tags$b("most different"), ".")
+              )
             ),
-            
-            div(class="task-card",
-                tags$div(style="font-size:19px; font-weight:800; margin-bottom:12px;",
-                         "What you will do in each trial"),
-                fluidRow(
-                  column(
-                    4,
-                    div(class="mini-card",
-                        tags$div(class="mini-title", HTML("🎤&nbsp; Talk aloud")),
-                        tags$ul(class="mini-list",
-                                tags$li(tags$b("Start recording"), " to reveal the lineup."),
-                                tags$li("If prompted, allow microphone access"),
-                                tags$li("Talk through what you notice."),
-                                tags$li("Stop recording when you are done"),
-                                tags$li(tags$b("Select panel number(s)"), "that looks different."),
-                                tags$li("Then click ", tags$b("Save & proceed"), ".")
-                        )
-                    )
-                  ),
-                  column(
-                    4,
-                    div(class="mini-card",
-                        tags$div(class="mini-title", HTML("🖍&nbsp; Highlight")),
-                        tags$ul(class="mini-list",
-                                tags$li("Click a panel to select it."),
-                                tags$li("Click ", tags$b("Highlight"), " and draw around features."),
-                                tags$li("Mark what supports your choice (gaps, clusters, outliers, spread)."),
-                                tags$li("Click ", tags$b("Save & proceed"), " when finished.")
-                        ),
-                        actionButton(
-                          "show_highlight_demo",  
-                          "▶ View highlight demo",
-                          class = "btn btn-warning btn-sm",
-                          style = "width:100%; margin-top:8px; font-weight:600;"
-                        )
-                    )
-                  ),
-                  column(
-                    4,
-                    div(class="mini-card",
-                        tags$div(class="mini-title", HTML("✍&nbsp; Text summary")),
-                        tags$ul(class="mini-list",
-                                tags$li(tags$b("Select panel number(s)"), " (Selection 1 required)."),
-                                tags$li("Write 1–2 sentences describing what makes it different."),
-                                tags$li("Optional: add a second choice and explain it."),
-                                tags$li("Click ", tags$b("Save & proceed"), " to continue.")
-                        )
+            div(
+              class = "task-card",
+              tags$div(
+                style = "font-size:19px; font-weight:800; margin-bottom:12px;",
+                "What you will do in each trial"
+              ),
+              fluidRow(
+                column(
+                  4,
+                  div(
+                    class = "mini-card",
+                    tags$div(class = "mini-title", HTML("🎤&nbsp; Talk aloud")),
+                    tags$ul(
+                      class = "mini-list",
+                      tags$li(tags$b("Start recording"), " to reveal the lineup."),
+                      tags$li("If prompted, allow microphone access"),
+                      tags$li("Talk through what you notice."),
+                      tags$li("Stop recording when you are done"),
+                      tags$li(tags$b("Select panel number(s)"), "that looks different."),
+                      tags$li("Then click ", tags$b("Save & proceed"), ".")
                     )
                   )
                 ),
-                
-                br(),
-                
-                tags$div(style="font-size:16px; color:#b45309; margin-top:12px;",
-                         HTML("<b>Note:</b> These instructions will also appear on the left side of the page during each trial.")
+                column(
+                  4,
+                  div(
+                    class = "mini-card",
+                    tags$div(class = "mini-title", HTML("🖍&nbsp; Highlight")),
+                    tags$ul(
+                      class = "mini-list",
+                      tags$li("Click a panel to select it."),
+                      tags$li("Click ", tags$b("Highlight"), " and draw around features."),
+                      tags$li("Mark what supports your choice (gaps, clusters, outliers, spread)."),
+                      tags$li("Click ", tags$b("Save & proceed"), " when finished.")
+                    ),
+                    actionButton(
+                      "show_highlight_demo",
+                      "▶ View highlight demo",
+                      class = "btn btn-warning btn-sm",
+                      style = "width:100%; margin-top:8px; font-weight:600;"
+                    )
+                  )
+                ),
+                column(
+                  4,
+                  div(
+                    class = "mini-card",
+                    tags$div(class = "mini-title", HTML("✍&nbsp; Text summary")),
+                    tags$ul(
+                      class = "mini-list",
+                      tags$li(tags$b("Select panel number(s)"), " (Selection 1 required)."),
+                      tags$li("Write 1–2 sentences describing what makes it different."),
+                      tags$li("Optional: add a second choice and explain it."),
+                      tags$li("Click ", tags$b("Save & proceed"), " to continue.")
+                    )
+                  )
                 )
+              ),
+              br(),
+              tags$div(
+                style = "font-size:16px; color:#b45309; margin-top:12px;",
+                HTML("<b>Note:</b> These instructions will also appear on the left side of the page during each trial.")
+              )
             ),
-            
-            div(class="task-card",
-                tags$div(style="font-size:14px; color:#64748b;",
-                         HTML("⚠ <b>Please do not refresh the page</b> after you start — it may interrupt your session and recordings.")
-                )
+            div(
+              class = "task-card",
+              tags$div(
+                style = "font-size:14px; color:#64748b;",
+                HTML("⚠ <b>Please do not refresh the page</b> after you start — it may interrupt your session and recordings.")
+              )
             ),
-            
             br(),
-            
-            div(style="text-align:center;",
-                actionButton(
-                  "start_experiment",
-                  "Start the experiment",
-                  class="btn btn-primary big-btn",
-                  style="width:55%;"
-                )
+            div(
+              style = "text-align:center;",
+              actionButton(
+                "start_experiment",
+                "Start the experiment",
+                class = "btn btn-primary big-btn",
+                style = "width:55%;"
+              )
             ),
-            
             br(), br()
           )
         )
       )
     ),
-    
-    
+
+
     # Talk aloud
     tabPanel(
-      "Talk Aloud", value = "Talk",
+      "Talk Aloud",
+      value = "Talk",
       fluidPage(
         div(class = "task-title", "Talk aloud"),
         div(class = "task-sub", textOutput("trial_counter_talk")),
-        
         fluidRow(
           column(
             4,
@@ -267,67 +277,61 @@ ui <- tagList(
                 "“Most panels show a similar pattern, but panel # has more spread at the end and more extreme values. I think # is different.”"
               )
             ),
-            
             div(
               class = "task-card",
               tags$div(style = "font-size:16px; font-weight:700; margin-bottom:10px;", "Recording controls"),
-              
               actionButton("rec_start", "Start recording", class = "btn btn-primary btn-lg", width = "100%"),
               br(), br(),
-              
               shinyjs::hidden(
                 actionButton("rec_stop", "Stop recording", class = "btn btn-warning btn-lg", width = "100%")
               ),
-              
               br(), br(),
               tags$div(style = "font-size:15px; color:#111827;", textOutput("rec_status")),
               tags$div(style = "font-size:13px; color:#6b7280;", textOutput("rec_timer")),
-              
               tags$hr(style = "margin:12px 0;"),
-              
               tags$div(style = "font-size:16px; font-weight:700; margin-bottom:10px;", "Your selection"),
-              
               tags$div(style = "font-size:13px; font-weight:700; margin-bottom:6px;", "Selection 1 (required)"),
               selectInput("talk_sel1", NULL, choices = c("-", as.character(1:20)), selected = "-", width = "100%"),
-              
               tags$div(
                 style = "display:flex; justify-content:space-between; align-items:center; margin:10px 0 6px;",
                 tags$span(style = "font-size:13px; font-weight:700;", "Selection 2 (optional)"),
                 tags$span(style = "font-size:12px; color:#6b7280;", "Leave “-” if none")
               ),
               selectInput("talk_sel2", NULL, choices = c("-", as.character(1:20)), selected = "-", width = "100%"),
-              
               br(),
               actionButton("talk_next", "Save & proceed to next trial", class = "btn btn-success btn-lg", width = "100%")
             )
           ),
-          
           column(
             8,
             div(
               class = "lineup-shell",
               shinyjs::hidden(
-                div(id = "talk_placeholder", class = "placeholder",
-                    "The lineup will appear here after you start recording.")
+                div(
+                  id = "talk_placeholder", class = "placeholder",
+                  "The lineup will appear here after you start recording."
+                )
               ),
               shinyjs::hidden(
-                div(id = "talk_lineup_wrap",
-                    d3Output("lineup_talk", height = "78vh"))
+                div(
+                  id = "talk_lineup_wrap",
+                  d3Output("lineup_talk", height = "78vh")
+                )
               )
             )
           )
         )
       )
     ),
-    
+
 
     # Highlight tab
     tabPanel(
-      "Highlight", value = "Highlight",
+      "Highlight",
+      value = "Highlight",
       fluidPage(
         div(class = "task-title", "Highlight"),
         div(class = "task-sub", textOutput("trial_counter_highlight")),
-        
         fluidRow(
           column(
             4,
@@ -341,7 +345,7 @@ ui <- tagList(
                 div(
                   style = "margin:6px 0 12px 22px;",
                   actionButton(
-                    "show_highlight_demo", 
+                    "show_highlight_demo",
                     "▶ View highlight demo",
                     class = "btn btn-warning btn-sm"
                   )
@@ -350,32 +354,32 @@ ui <- tagList(
                 tags$li("If you have a second choice, select that panel and highlight."),
                 tags$li(tags$b("Save & proceed"), " to move to the next trial.")
               ),
-              div(class = "hint",
-                  tags$b("What to highlight: "),
-                  "clusters, gaps, unusual spread, outliers, slope/shape changes, or anything that supports your choice.")
+              div(
+                class = "hint",
+                tags$b("What to highlight: "),
+                "clusters, gaps, unusual spread, outliers, slope/shape changes, or anything that supports your choice."
+              )
             ),
-            
             div(
               class = "task-card",
               tags$div(style = "font-size:16px; font-weight:700; margin-bottom:10px;", "When you're done"),
               actionButton("save_highlight", "Save & proceed to next trial", class = "btn btn-success btn-lg", width = "100%")
-              #div(style = "font-size:15px; color:#6b7280; margin-top:10px;", "You can clear and redraw highlights if needed.")
+              # div(style = "font-size:15px; color:#6b7280; margin-top:10px;", "You can clear and redraw highlights if needed.")
             )
           ),
-          
           column(8, d3Output("lineup_highlight", height = "80vh"))
         )
       )
     ),
-    
-  
+
+
     # Text Summary tab
     tabPanel(
-      "Summary", value = "Summary",
+      "Summary",
+      value = "Summary",
       fluidPage(
         div(class = "task-title", "Text summary"),
         div(class = "task-sub", textOutput("trial_counter_summary")),
-        
         fluidRow(
           column(
             4,
@@ -389,15 +393,15 @@ ui <- tagList(
                 tags$li("Select a second plot if you have another choice and explain why."),
                 tags$li(tags$b("Save & proceed"), " to move to the next trial,")
               ),
-              div(class = "hint",
-                  tags$b("Good reasons mention: "),
-                  "shape/slope changes, spread differences, clusters, gaps, outliers, or unusual patterns.")
+              div(
+                class = "hint",
+                tags$b("Good reasons mention: "),
+                "shape/slope changes, spread differences, clusters, gaps, outliers, or unusual patterns."
+              )
             ),
-            
             div(
               class = "task-card",
               tags$div(style = "font-size:16px; font-weight:700; margin-bottom:10px;", "Your response"),
-              
               tags$div(style = "font-size:13px; font-weight:700; margin-bottom:6px;", "Selection 1 (required)"),
               selectInput("sum_sel1", NULL, choices = c("-", as.character(1:20)), selected = "-", width = "100%"),
               textAreaInput(
@@ -405,76 +409,73 @@ ui <- tagList(
                 placeholder = "Example: Has larger spread at high values and more extreme points near the end.",
                 rows = 4, width = "100%"
               ),
-              
               tags$hr(style = "margin:10px 0;"),
-              
-              tags$div(style = "display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;",
-                       tags$span(style = "font-size:13px; font-weight:700;", "Selection 2 (optional)"),
-                       tags$span(style = "font-size:12px; color:#6b7280;", "Leave “-” if none")),
+              tags$div(
+                style = "display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;",
+                tags$span(style = "font-size:13px; font-weight:700;", "Selection 2 (optional)"),
+                tags$span(style = "font-size:12px; color:#6b7280;", "Leave “-” if none")
+              ),
               selectInput("sum_sel2", NULL, choices = c("-", as.character(1:20)), selected = "-", width = "100%"),
               textAreaInput("sum_why2", NULL, placeholder = "Optional second choice…", rows = 3, width = "100%"),
-              
               br(),
               actionButton("submit_summary", "Save & proceed to next trial", class = "btn btn-success btn-lg", width = "100%")
             )
           ),
-          
           column(8, d3Output("lineup_summary", height = "80vh"))
         )
       )
     ),
-    
- 
+
+
     # Demographics
     tabPanel(
-      "Demographics", value = "Demographics",
+      "Demographics",
+      value = "Demographics",
       fluidPage(
-        div(class = "demo-page",
-            
-            h3("Demographic Information"),
-            
-            selectInput(
-              "demo_exp", "Age Range:",
-              c("", "Under 19","19-25","26-30","31-35","36-40","41-45",
-                "46-50","51-55","56-60","Over 60","Prefer not to say"),
-              selected = ""
+        div(
+          class = "demo-page",
+          h3("Demographic Information"),
+          selectInput(
+            "demo_exp", "Age Range:",
+            c(
+              "", "Under 19", "19-25", "26-30", "31-35", "36-40", "41-45",
+              "46-50", "51-55", "56-60", "Over 60", "Prefer not to say"
             ),
-            
-            selectInput(
-              "education", "Highest Educational Level:",
-              c("", "High school or Less","Some Undergraduate Courses",
-                "Undergraduate Degree","Some Graduate Courses",
-                "Graduate Degree","Prefer not to say"),
-              selected = ""
+            selected = ""
+          ),
+          selectInput(
+            "education", "Highest Educational Level:",
+            c(
+              "", "High school or Less", "Some Undergraduate Courses",
+              "Undergraduate Degree", "Some Graduate Courses",
+              "Graduate Degree", "Prefer not to say"
             ),
-            
-            selectInput(
-              "gender_identity", "Gender Identity:",
-              c("", "Female","Male","Prefer not to say"),
-              selected = ""
-            ),
-            
-            selectInput(
-              "color_blind",
-              "Do you have a color deficiency (color blindness)?",
-              c("", "No","Yes","Unsure","Prefer not to say"),
-              selected = ""
-            ),
-            
-            br(), br(),
-            
-            actionButton("demo_continue", "Continue",
-                         class = "btn btn-primary")
-            
-        )  
-      )   
-    ) ,    
-    
-    
+            selected = ""
+          ),
+          selectInput(
+            "gender_identity", "Gender Identity:",
+            c("", "Female", "Male", "Prefer not to say"),
+            selected = ""
+          ),
+          selectInput(
+            "color_blind",
+            "Do you have a color deficiency (color blindness)?",
+            c("", "No", "Yes", "Unsure", "Prefer not to say"),
+            selected = ""
+          ),
+          br(), br(),
+          actionButton("demo_continue", "Continue",
+            class = "btn btn-primary"
+          )
+        )
+      )
+    ),
+
 
     # Done
     tabPanel(
-      "Done", value = "Done",
+      "Done",
+      value = "Done",
       fluidPage(
         br(), br(),
         fluidRow(
