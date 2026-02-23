@@ -249,7 +249,7 @@ server <- function(input, output, session) {
   TOTAL_TRIALS <- 12
   D_PER_PERSON <- 4
 
-  img_dir <- "Images"
+  img_dir <- "www/Images"
   box_svgs <- sort(list.files(img_dir, pattern = "^(T5|T6)_boxplot_.*\\.svg$", full.names = FALSE))
   sc_svgs <- sort(list.files(img_dir, pattern = "^SC_scatter_.*\\.svg$", full.names = FALSE))
 
@@ -277,7 +277,7 @@ server <- function(input, output, session) {
   # trial plan stored in reactiveVal after start experiment
   trial_plan_rv <- reactiveVal(NULL)
 
-  make_payload_from_file <- function(fn) list(svg = paste0("/lineups/", fn), n_panels = 20, filename = fn)
+  make_payload_from_file <- function(fn) list(svg = paste0("Images/", fn), n_panels = 20, filename = fn)
 
   get_trial_payload <- function(trial_n) {
     tp <- trial_plan_rv()
