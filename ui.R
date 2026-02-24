@@ -3,14 +3,6 @@ library(r2d3)
 library(shinyjs)
 library(speechcollectr)
 
-addResourcePath(
-  prefix = "lineups",
-  directoryPath = normalizePath(
-    "Images",
-    winslash = "/",
-    mustWork = TRUE
-  )
-)
 
 ui <- tagList(
   useShinyjs(),
