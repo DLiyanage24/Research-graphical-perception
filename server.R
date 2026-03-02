@@ -20,7 +20,7 @@ DB_PATH <- file.path(DATA_DIR, "app_data.sqlite")
 
 `%||%` <- function(a, b) if (!is.null(a)) a else b
 
-# DB setup
+############# DB setup##########################
 init_db <- function() {
   con <- dbConnect(RSQLite::SQLite(), DB_PATH)
 
@@ -165,6 +165,17 @@ init_db <- function() {
       UNIQUE(participant_id, session_id, trial_n)
     )
   ")
+  
+  # mic test
+  dbExecute(con, "
+    CREATE TABLE IF NOT EXISTS mic_test (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      participant_id TEXT NOT NULL,
+      session_id     TEXT NOT NULL,
+      timestamp      TEXT NOT NULL,
+      mic_confirmed  INTEGER NOT NULL
+    )
+  ")
 
   # helper - add columns if missing
   ensure_cols <- function(con, table, cols) {
@@ -205,6 +216,8 @@ append_df <- function(con, table, df) {
 }
 
 # server logic
+
+################setup dir, IDs##################
 server <- function(input, output, session) {
   # ensure folders exist
   dir.create(DATA_DIR, showWarnings = FALSE, recursive = TRUE)
@@ -212,6 +225,11 @@ server <- function(input, output, session) {
 
   # DB connection
   con <- init_db()
+  
+  #create a temp web folder 
+  MIC_TMP_DIR <- file.path("www", "mic_tmp")
+  dir.create(MIC_TMP_DIR, showWarnings = FALSE, recursive = TRUE)
+  mic_tmp_file <- reactiveVal(NULL)  # store temp filename so we can delete later
 
   # generate unique IDs for this session
   participant_id <- paste0("P-", format(Sys.time(), "%Y%m%d%H%M%S"), "-", substr(session$token, 1, 6))
@@ -243,7 +261,7 @@ server <- function(input, output, session) {
       try(DBI::dbDisconnect(con), silent = TRUE)
     }
   })
-
+#################Load files, lineups####################################
   # Lineup files + experiment settings
   JS_PATH <- "you-draw-it-svg.js"
   TOTAL_TRIALS <- 12
@@ -273,7 +291,8 @@ server <- function(input, output, session) {
       stop("Unknown plot_type: ", plot_type)
     }
   }
-
+###############Trial plan helpers################################################
+  
   # trial plan stored in reactiveVal after start experiment
   trial_plan_rv <- reactiveVal(NULL)
 
@@ -293,6 +312,7 @@ server <- function(input, output, session) {
     tp$method[tp$trial_n == trial_n][1]
   }
 
+##################Reactive state################################
   # Reactive state containers
   rvs <- reactiveValues(trial_n = 0)
 
@@ -304,6 +324,12 @@ server <- function(input, output, session) {
   summary_lineup <- reactiveVal(NULL)
 
   trial_started_at <- reactiveValues()
+  
+  # Mic check gating
+  mic_checked <- reactiveVal(FALSE)         # TRUE after participant confirms mic test
+  mic_is_recording <- reactiveVal(FALSE)
+  mic_rec_started_at <- reactiveVal(NULL)
+
 
   # Talk recording gating
   talk_is_recording <- reactiveVal(FALSE)
@@ -312,6 +338,7 @@ server <- function(input, output, session) {
   talk_rec_row_id <- reactiveVal(NA_integer_) # inserted recordings.id
   rec_status_rv <- reactiveVal("")
 
+####################Outputs (text, timers)#####################################
   # Outputs: recording status + timer
   output$rec_status <- renderText(rec_status_rv())
 
@@ -341,6 +368,7 @@ server <- function(input, output, session) {
   output$trial_counter_highlight <- renderText(trial_counter_text())
   output$trial_counter_summary <- renderText(trial_counter_text())
 
+################ Navigation helpers, timing##################################
   # Save timing
   save_trial_timing <- function(trial_n, ended_at = Sys.time()) {
     m <- get_trial_method(trial_n)
@@ -363,6 +391,8 @@ server <- function(input, output, session) {
       dur
     ))
   }
+  
+  
 
   # load the correct tab for the current trial
   go_to_current_trial <- function() {
@@ -451,32 +481,171 @@ server <- function(input, output, session) {
   # Consent gating: must check “I agree” checkbox
   observeEvent(input$consent_continue, {
     if (isTRUE(input$consent_choice)) {
-      updateTabsetPanel(session, "topnav", selected = "Lineup")
+      updateTabsetPanel(session, "topnav", selected = "MicTest")
     } else {
       showModal(modalDialog("Please check “I agree” to continue.", easyClose = TRUE))
     }
   })
+  
+  observe({
+    shinyjs::toggleState("mic_continue", condition = isTRUE(input$mic_ok))
+  })
 
+  
+  
+################## Mic test handlers (MicTest tab)################
+  # MIC TEST: Start recording
+  observeEvent(input$mic_rec_start, {
+    
+    #  clear any previous audio in the player
+    shinyjs::runjs('var a=document.getElementById("mic_player"); if(a){a.pause(); a.src=""; a.load();}')
+    
+    msg <- tryCatch({ startRec(); NULL }, error = function(e) as.character(e))
+    
+    if (is.null(msg)) {
+      mic_is_recording(TRUE)
+      mic_rec_started_at(Sys.time())
+      
+      shinyjs::disable("mic_rec_start")
+      shinyjs::show("mic_rec_stop")
+      shinyjs::enable("mic_rec_stop")
+    } else {
+      showModal(modalDialog(
+        title = "Microphone error",
+        paste("Could not start the recorder:", msg),
+        easyClose = TRUE
+      ))
+    }
+  })
+  
+  
+  # MIC TEST: Stop recording
+  observeEvent(input$mic_rec_stop, {
+    if (!isTRUE(mic_is_recording()) || is.null(mic_rec_started_at())) {
+      showModal(modalDialog("Please click “Start recording” first.", easyClose = TRUE))
+      return()
+    }
+    
+    shinyjs::disable("mic_rec_stop")
+    
+    ts <- format(Sys.time(), "%Y%m%d-%H%M%S")
+    fname <- sprintf("%s_mic_%s.wav", participant_id, ts)
+    
+    msg <- tryCatch(
+      { stopRec(filename = fname, finishedId = "mic_done"); NULL },
+      error = function(e) as.character(e)
+    )
+    
+    if (!is.null(msg)) {
+      shinyjs::enable("mic_rec_stop")
+      showModal(modalDialog(
+        title = "Microphone error",
+        paste("Could not stop/save recorder:", msg),
+        easyClose = TRUE
+      ))
+    }
+  })
+  
+  
+  # MIC TEST: Finished saving
+  observeEvent(input$mic_done, {
+    
+    wav_path <- normalizePath(as.character(input$mic_done),
+                              winslash = "/",
+                              mustWork = FALSE)
+    
+    if (!nzchar(wav_path) || !file.exists(wav_path)) {
+      showModal(modalDialog(
+        "Microphone test finished, but no audio file was detected.",
+        easyClose = TRUE
+      ))
+      shinyjs::enable("mic_rec_stop")
+      return()
+    }
+    
+    # remove any previous temp mic file
+    old <- mic_tmp_file()
+    if (!is.null(old) && file.exists(old)) unlink(old)
+    mic_tmp_file(NULL)
+    
+    # Save to www/mic_tmp only for playback
+    ts <- format(Sys.time(), "%Y%m%d-%H%M%S")
+    tmp_fname <- sprintf("%s_MIC_%s.wav", participant_id, ts)
+    tmp_path  <- file.path(MIC_TMP_DIR, tmp_fname)
+    
+    ok <- file.rename(wav_path, tmp_path)
+    if (!ok) {
+      file.copy(wav_path, tmp_path, overwrite = TRUE)
+      unlink(wav_path)
+    }
+    
+    mic_tmp_file(tmp_path)
+    
+    # Point audio player at the temp file
+    shinyjs::runjs(sprintf(
+      'var a=document.getElementById("mic_player");
+     if(a){ a.src="mic_tmp/%s?ts="+Date.now(); a.load(); }',
+      tmp_fname
+    ))
+    
+    
+    shinyjs::show("mic_audio_block")
+    
+    mic_is_recording(FALSE)
+    mic_rec_started_at(NULL)
+    
+    shinyjs::hide("mic_rec_stop")
+    shinyjs::enable("mic_rec_start")
+    
+  })
+  
+  
+  # MIC TEST: Continue (log only mic_confirmed, then delete audio)
+  observeEvent(input$mic_continue, {
+    req(isTRUE(input$mic_ok))
+    
+    mic_checked(TRUE)
+    
+    shinyjs::hide("mic_audio_block")
+    
+    now <- format(Sys.time(), "%Y-%m-%d %H:%M:%S%z")
+    dbExecute(con, "
+    INSERT INTO mic_test(participant_id, session_id, timestamp, mic_confirmed)
+    VALUES (?, ?, ?, ?);
+  ", params = list(participant_id, session_id, now, 1L))
+    
+    # delete temp playback file
+    tmp <- mic_tmp_file()
+    if (!is.null(tmp) && file.exists(tmp)) unlink(tmp)
+    mic_tmp_file(NULL)
+    
+    shinyjs::runjs('var a=document.getElementById("mic_player"); if(a){a.pause(); a.src=""; a.load();}')
+    updateCheckboxInput(session, "mic_ok", value = FALSE)
+    
+    updateTabsetPanel(session, "topnav", selected = "Lineup")
+  })
+######################## Start experiment###########################################  
+  
   # Start experiment: create participant row + assign datasets + build trial_plan
   observeEvent(input$start_experiment, {
     started_at <- format(Sys.time(), "%Y-%m-%d %H:%M:%S%z")
-
+    
     # insert participant session row
     dbExecute(con, "
       INSERT INTO participants (participant_id, session_id, started_at)
       VALUES (?, ?, ?)
       ON CONFLICT(participant_id, session_id) DO NOTHING;
     ", params = list(participant_id, session_id, started_at))
-
+    
     session$userData$has_participants_row <- TRUE
-
+    
     pid_index <- dbGetQuery(con, "
       SELECT pid_index
       FROM participants
       WHERE participant_id = ? AND session_id = ?
       LIMIT 1;
     ", params = list(participant_id, session_id))$pid_index[1]
-
+    
     # assign datasets
     assigned_df <- assign_datasets_random(
       con = con,
@@ -486,18 +655,18 @@ server <- function(input, output, session) {
       n_scatter = N_SCATTER,
       D = D_PER_PERSON
     )
-
-
+    
+    
     # only create trial_plan once
     existing_n <- dbGetQuery(con, "
       SELECT COUNT(*) AS n
       FROM trial_plan
       WHERE participant_id = ? AND session_id = ?;
     ", params = list(participant_id, session_id))$n[1]
-
+    
     if (existing_n == 0) {
       sched0 <- make_schedule(pid_index, assigned_df)
-
+      
       sched <- sched0 %>%
         mutate(
           participant_id = participant_id,
@@ -505,10 +674,10 @@ server <- function(input, output, session) {
           lineup_file    = mapply(dataset_id_to_file, dataset_id, plot_type)
         ) %>%
         select(participant_id, session_id, trial_n, dataset_id, plot_type, method, lineup_file)
-
+      
       append_df(con, "trial_plan", sched)
     }
-
+    
     # load trial_plan into memory for fast access during the run
     tp <- dbGetQuery(con, "
       SELECT trial_n, dataset_id, plot_type, method, lineup_file
@@ -516,14 +685,14 @@ server <- function(input, output, session) {
       WHERE participant_id = ? AND session_id = ?
       ORDER BY trial_n;
     ", params = list(participant_id, session_id))
-
+    
     trial_plan_rv(as_tibble(tp))
-
+    
     if (rvs$trial_n <= 0) rvs$trial_n <- 1
     go_to_current_trial()
   })
 
-
+###################Talk aloud handlers##########################
   # Talk aloud: Start recording (shows lineup + starts speechcollectr)
   observeEvent(input$rec_start, {
     req(rvs$trial_n >= 1, get_trial_method(rvs$trial_n) == "Talk")
@@ -714,7 +883,7 @@ server <- function(input, output, session) {
     advance_trial()
   })
 
-
+###############text summary handlers##################################################
   # text summary
   observeEvent(input$submit_summary, {
     req(rvs$trial_n >= 1, get_trial_method(rvs$trial_n) == "Summary")
@@ -766,7 +935,7 @@ server <- function(input, output, session) {
     advance_trial()
   })
 
-
+################Highlight handlers##############################
   # Highlight
   observeEvent(input$highlight_cleared,
     {
@@ -885,7 +1054,7 @@ server <- function(input, output, session) {
   })
 
 
-  # show video demo
+  # show highkight video demo
   observeEvent(input$show_highlight_demo, {
     showModal(modalDialog(
       title = "How to mark key features on a panel",
@@ -912,7 +1081,7 @@ server <- function(input, output, session) {
     ))
   })
 
-
+##################demographics and done##############################
   # demographics
   observeEvent(input$demo_continue, {
     if ((input$demo_exp %||% "") == "" ||

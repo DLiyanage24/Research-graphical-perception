@@ -121,7 +121,60 @@ ui <- tagList(
         )
       )
     ),
-
+    
+    #Mic Check page
+    tabPanel("Mic Check", value = "MicTest",
+             fluidPage(
+               div(class="task-card mic-card",
+                   
+                   div(class="task-title", "Microphone Check"),
+                   div(class="task-sub", "Before we begin the study, please confirm that your microphone is working properly."),
+                   
+                   div(class="mic-step",
+                       tags$b("Step 1."),
+                       " Click ", tags$b("Start recording"), "and say:"
+                   ),
+                   tags$blockquote("This is a microphone test."),
+                   actionButton("mic_rec_start", "Start recording", class="btn btn-primary"),
+                   
+                   br(), br(),
+                   
+                   shinyjs::hidden(
+                     actionButton("mic_rec_stop", "Stop recording", class="btn btn-warning")
+                   ),
+                   
+                   shinyjs::hidden(
+                     div(id="mic_audio_block",
+                         
+                         hr(),
+                         
+                         div(class="mic-step",
+                             tags$b("Step 2."),
+                             " Click play below to listen to your recording."
+                         ),
+                         
+                         tags$audio(
+                           id = "mic_player",
+                           controls = NA,
+                           style = "width:100%; margin-top:8px;"
+                         ),
+                         
+                         br(),
+                         
+                         div(class="mic-step",
+                             tags$b("Step 3."),
+                             " If you heard your voice clearly, check the box and continue."
+                         ),
+                         
+                         checkboxInput("mic_ok", "I can hear my voice clearly.", FALSE),
+                         
+                         actionButton("mic_continue", "Continue", class="btn btn-success")
+                     )
+                   )
+             
+               )
+             )
+    ),
 
     # Lineup landing page
     tabPanel(
@@ -213,14 +266,14 @@ ui <- tagList(
               ),
               br(),
               tags$div(
-                style = "font-size:16px; color:#b45309; margin-top:12px;",
+                style = "font-size:15px; color:#b45309; margin-top:12px;",
                 HTML("<b>Note:</b> These instructions will also appear on the left side of the page during each trial.")
               )
             ),
             div(
               class = "task-card",
               tags$div(
-                style = "font-size:14px; color:#64748b;",
+                style = "font-size:16px; color:#dc2626;",
                 HTML("⚠ <b>Please do not refresh the page</b> after you start — it may interrupt your session and recordings.")
               )
             ),
