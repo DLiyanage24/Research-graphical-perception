@@ -7,25 +7,35 @@ library(speechcollectr)
 ui <- tagList(
   useShinyjs(),
   useRecorder(),
-
-  # load CSS
+  
   tags$head(
     tags$link(rel = "stylesheet", type = "text/css", href = "styles.css")
   ),
+  
+  #Disable manual clicking between tabs
+  # tags$head(
+  #   tags$style(HTML("
+  #   nav.navbar .nav > li > a {
+  #     pointer-events: none;
+  #     cursor: default;
+  #   }
+  # "))
+  # ),
 
-  # hide tabs before JS runs
+  
+  # Hide these tabs 
   tags$head(tags$style(HTML('
-    #topnav li a[data-value="Talk"],
-    #topnav li a[data-value="Highlight"],
-    #topnav li a[data-value="Summary"] {
+    #topnav a[data-value="Talk"],
+    #topnav a[data-value="Highlight"],
+    #topnav a[data-value="Summary"] {
       display: none;
     }
   '))),
+  
   navbarPage(
     title = "Perception of Statistical Graphics",
     id = "topnav",
     selected = "Consent",
-
 
     # Consent
     tabPanel(
@@ -116,7 +126,17 @@ ui <- tagList(
               "I agree. You may save my data.",
               value = FALSE
             ),
-            actionButton("consent_continue", "Continue", class = "btn btn-primary")
+            actionButton("consent_continue", "Continue to the experiment", class = "btn btn-primary", width= "25%"),
+            br(), br(),
+          
+            tags$a(
+              href = "#",
+              onclick = "window.location.replace('https://app.prolific.com/submissions/complete?cc=C18MPT4O'); return false;",
+              class = "btn btn-danger",
+              style = "width: 25%;",
+              "I do not consent (exit)"
+            )
+            
           )
         )
       )
@@ -519,7 +539,7 @@ ui <- tagList(
 
     # Done
     tabPanel(
-      "Done",
+      "Finish and Submit",
       value = "Done",
       fluidPage(
         br(), br(),
@@ -530,8 +550,18 @@ ui <- tagList(
               class = "done-card",
               tags$h2("Thank You for Participating!"),
               br(),
-              tags$p("Your responses have been successfully recorded.", style = "font-size:18px;"),
-              tags$p("We truly appreciate the time and thought you put into completing this study.", style = "font-size:16px;")
+    
+              tags$p("We truly appreciate the time and thought you put into completing this study.", style = "font-size:18px;"),
+              br(),
+              tags$p("Please click the Submit button below to complete the study and receive your payment.", style = "font-size:20px; font-weight:700; color:#b45309;"),
+              
+              tags$a(
+                href ="#",
+                onclick = "window.location.replace('https://app.prolific.com/submissions/complete?cc=C15DM49H'); return false;",
+                class = "btn btn-success btn-lg",
+                style = "margin-top: 16px; width: 100%",
+                "Submit"
+              )
             )
           )
         ),
