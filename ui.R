@@ -113,27 +113,23 @@ ui <- tagList(
       <p>If you wish to withdraw from the study after completion, we will attempt to remove your data. To facilitate this process, you will need to provide the time you started and ended the study as well as any details you can remember about your responses. If we cannot uniquely identify a set of responses from the information you provide,  we may not be able to delete your responses from the study because we have designed the study to ensure that we are not collecting identifiable information. <p>
 
       <h4>Documentation of Informed Consent</h4>
-      <p>You are voluntarily making a decision whether or not to participate in this research study. By clicking on the I Agree button below, your consent to participate is implied. </p>
+      <p>You are voluntarily making a decision whether or not to participate in this research study. By clicking on the Continue to the experiment button below, your consent to participate is implied. </p>
       ")
           ),
           tags$div(class = "consent-divider"),
           div(
             class = "consent-actions",
-            tags$strong("I have read the informed consent document and agree to participate in this experiment"),
-            br(), br(),
-            checkboxInput(
-              "consent_choice",
-              "I agree. You may save my data.",
-              value = FALSE
-            ),
-            actionButton("consent_continue", "Continue to the experiment", class = "btn btn-primary", width= "25%"),
+            #tags$strong("By clicking on the Continue to the experiment button below, your consent to participate is implied."),
+           
+            
+            actionButton("consent_continue", "Continue to the experiment", class = "btn btn-primary", width= "260px"),
             br(), br(),
           
             tags$a(
               href = "#",
               onclick = "window.location.replace('https://app.prolific.com/submissions/complete?cc=C18MPT4O'); return false;",
               class = "btn btn-danger",
-              style = "width: 25%;",
+              style = "width: 260px;",
               "I do not consent (exit)"
             )
             

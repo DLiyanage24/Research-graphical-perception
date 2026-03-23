@@ -478,14 +478,11 @@ server <- function(input, output, session) {
       updateTabsetPanel(session, "topnav", selected = "Demographics")
     }
   }
-  # Consent gating: must check “I agree” checkbox
+  # Consent gating
   observeEvent(input$consent_continue, {
-    if (isTRUE(input$consent_choice)) {
-      updateTabsetPanel(session, "topnav", selected = "MicTest")
-    } else {
-      showModal(modalDialog("Please check “I agree” to continue.", easyClose = TRUE))
-    }
+    updateTabsetPanel(session, "topnav", selected = "MicTest")
   })
+ 
   
   observe({
     shinyjs::toggleState("mic_continue", condition = isTRUE(input$mic_ok))
