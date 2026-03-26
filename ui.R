@@ -13,14 +13,14 @@ ui <- tagList(
   ),
   
   #Disable manual clicking between tabs
-  # tags$head(
-  #   tags$style(HTML("
-  #   nav.navbar .nav > li > a {
-  #     pointer-events: none;
-  #     cursor: default;
-  #   }
-  # "))
-  # ),
+  tags$head(
+    tags$style(HTML("
+    nav.navbar .nav > li > a {
+      pointer-events: none;
+      cursor: default;
+    }
+  "))
+  ),
 
   
   # Hide these tabs 
@@ -73,10 +73,10 @@ ui <- tagList(
       <p>Statistical charts and graphs are everywhere – in news articles, advertisements, and on TV. We are interested in whether people read information from charts accurately, and whether certain types of charts are more useful when making data-informed decisions. Unfortunately, we know relatively little about how people read and perceive charts. This study is designed to address this gap in research by systematically investigating the use of charts in different tasks and contexts. </p>
 
       <h4>Procedure of the study </h4>
-      <p>Participation in this study should require less than ___ minutes of your time. You will be asked to look at statistical charts and then answer questions or complete tasks based on the visualization and contextual information.<p>
+      <p>Participation in this study should take 20-30 minutes of your time. You will be asked to look at statistical charts and then answer questions or complete tasks based on the visualization and contextual information.<p>
       <p>You may be asked to estimate, predict, or make decisions based on one or more graphs. You will be able to provide an explanation of your response, if you choose to do so. </p>
-      <p>(If relevant) ) We may ask you to talk out loud as you think through the task, and record this information using your computer’s microphone. These recordings will be saved to the server and transcribed, but will be anonymous and should not contain any personally identifying information. <p>
-      <p>We expect that each of the questions we ask will take less than 3 minutes to complete. We will start out with practice questions so that you can become accustomed to the interface. After the practice task(s), there will be a series of questions. At the end of the study, you will be asked for some demographic information, such as your age, education level, and occupation.<p>
+      <p>We may ask you to talk out loud as you think through the task, and record this information using your computer’s microphone. These recordings will be saved to the server and transcribed, but will be anonymous and should not contain any personally identifying information. <p>
+      <p>We expect that each of the questions we ask will take less than 3 minutes to complete. At the end of the study, you will be asked for some demographic information, such as your age, education level, and occupation.<p>
       <p>Participation will take place in a location of your choosing, on your computer.</p>
 
       <h4>Possible risks of being in this research study</h4>
@@ -86,7 +86,7 @@ ui <- tagList(
       <p>You are not expected to receive any direct benefit from this study.</p>
 
       <h4>Compensation</h4>
-      <p><strong>Prolific participants:</strong> We will pay you $XX for participating in this study through Prolific. At the conclusion of this study, you will be provided a URL that will direct you back to Prolific, signaling study completion. While you are free to quit at any time or to decline to answer any question, you will only be compensated if you complete the study and click on the redirect URL provided at the end of the study.</p>
+      <p><strong>Prolific participants:</strong> We will pay you $5 for participating in this study through Prolific. At the conclusion of this study, you will be provided a URL that will direct you back to Prolific, signaling study completion. While you are free to quit at any time or to decline to answer any question, you will only be compensated if you complete the study and click on the redirect URL provided at the end of the study.</p>
       <p><strong>Reddit participants:</strong> You will not be paid for participation.</p>
       <p>Reddit statement (study run through Prolific as well as Reddit): You will not be paid to take part in this study if you participate through Reddit. In recognition of the fact that not all individuals who want to contribute to science are comfortable providing identifying information to an outside service, we have designed this study with two different participation options. If you wish to be compensated for your participation, you may register with Prolific and locate the study on that platform. <p>
 
