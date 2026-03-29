@@ -66,7 +66,7 @@ ui <- tagList(
       <ul>
         <li>You are above the age of consent in your jurisdiction (18+ in most states, 19+ in Nebraska and Alabama, 21+ in Mississippi)</li>
         <li>You have normal or corrected-to-normal vision</li>
-        <li>(if relevant) Your computer has a working microphone and you are willing to have your voice recorded.</li>
+        <li>Your computer has a working microphone and you are willing to have your voice recorded.</li>
       </ul>
 
       <h4>Purpose of the study</h4>
