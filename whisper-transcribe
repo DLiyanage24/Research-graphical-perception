@@ -1,0 +1,25 @@
+#!/bin/bash
+
+source /venv/bin/activate
+
+
+ls data/recordings/ | sort | sed -e 's/\.wav$//' > audioFileList
+ls data/transcripts/ | sort | sed -e 's/\.json$//' > transcriptFileList
+toTranscribe=$(comm -23 audioFileList transcriptFileList)
+
+
+# Remove empty strings
+echo "${toTranscribe[@]}"
+toTranscribe=($(for h in ${toTranscribe[@]}; do [ "$h" != "$toTranscribe" ] && echo $h; done ))
+echo "${toTranscribe[@]}"
+
+
+echo "Transcribing ${#toTranscribe[@]} new files"
+
+for file in $toTranscribe; do
+    echo "Transcribing $file.wav to data/transcripts/$file.json"
+    whisper "data/recordings/$file.wav" --fp16 False --model small --language English --output_dir data/transcripts/ --output_format json
+done
+
+rm audioFileList transcriptFileList
+

@@ -1,0 +1,19 @@
+#!/bin/bash
+# Needs to run as root or with install permissions
+
+# update apt
+apt upgrade
+
+# install python libs
+apt install python3-venv python3-pip python3-pipdeptree python3-pip-whl
+
+# create and activate venv
+python3 -m venv /venv
+source venv/bin/activate
+
+# install whisper and system deps
+apt install ffmpeg
+pip install -U openai-whisper setuptools-rust
+
+
+./dependency-install-R

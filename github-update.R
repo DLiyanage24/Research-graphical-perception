@@ -1,6 +1,10 @@
 #!/usr/bin/Rscript
 # Sorry this isn't elegant but necessary for the cron tab to work
-setwd("~/Projects/Students/Liyanage-Dinuwanthi/Research-graphical-perception//")
+setwd("~/Documents/Students/Liyanage-Dinuwanthi/Research-graphical-perception/")
+
+system2("source ./venv/bin/activate; ./whisper-transcribe", wait = F)
+
+
 
 onedrive_running <- system("ps aufxw | grep onedrive", intern = T)
 if (length(onedrive_running) < 2) {
@@ -18,20 +22,29 @@ httr::POST("https://hc-ping.com/99aa2306-4b9c-433a-a6d0-4107adc5e6c0/start")
 # Check repo status
 status <- git2r::status()
 
-tmp <- status$unstaged
-modified <- names(tmp) == "modified"
-modified <- unlist(tmp[modified])
 recordings <- list.files("data/recordings", full.names = F, recursive = T, include.dirs = T)
+transcripts <- list.files("data/transcripts", full.names = F, recursive = T, include.dirs = T)
 recordings_path <- file.path("/btrstorage", "OneDrive", "UNL", "Data", "2026-Liyanage-Dinuwanthi", "2026-Graphical-Perception", "data", "recordings")
 recordings_data <- file.path("data", "recordings", recordings)
 
+transcripts_path <- file.path("/btrstorage", "OneDrive", "UNL", "Data", "2026-Liyanage-Dinuwanthi", "2026-Graphical-Perception", "data", "transcripts")
+transcripts_data <- file.path("data", "transcripts", transcripts)
+
+tmp <- status$unstaged
+modified <- names(tmp) == "modified"
+modified <- unlist(tmp[modified])
+
 # If db has been modified
-if (any(stringr::str_detect(modified, ".*\\.sqlite"))) {
+if (any(stringr::str_detect(modified, ".*\\.sqlite")) | any(stringr::str_detect(modified, ".*\\.json"))) {
+
   # Copy database/codes to one drive
   file.copy(modified, file.path("/btrstorage", "OneDrive", "UNL", "Data", "2026-Liyanage-Dinuwanthi", "2026-Graphical-Perception"), overwrite = T)
   file.copy(recordings_data, recordings_path, overwrite = F)
+  file.copy(transcripts_data, transcripts_path, overwrite = F)
+
   # Add changed db to commit and commit
   git2r::add(repo = ".", "*.sqlite")
+  git2r::add(repo = ".", "*.json")
   try(git2r::commit(message = "Update data"))
 
   # Update
