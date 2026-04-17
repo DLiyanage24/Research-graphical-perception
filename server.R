@@ -137,7 +137,7 @@ init_db <- function() {
     )
   ")
 
-  # full full schedule
+  # full schedule
   dbExecute(con, "
     CREATE TABLE IF NOT EXISTS trial_plan (
       participant_id TEXT NOT NULL,
@@ -146,7 +146,10 @@ init_db <- function() {
       dataset_id     INTEGER NOT NULL,
       plot_type      TEXT NOT NULL,
       method         TEXT NOT NULL,
+      base_file      TEXT NOT NULL,
       lineup_file    TEXT NOT NULL,
+      target_plotIndex  INTEGER NOT NULL,
+      display_order     TEXT NOT NULL,
       PRIMARY KEY (participant_id, session_id, trial_n)
     )
   ")
@@ -193,7 +196,7 @@ init_db <- function() {
   ensure_cols(con, "highlighted_regions", list(lineup_file = "TEXT"))
   ensure_cols(con, "trial_timing", list(method = "TEXT", started_at = "TEXT", ended_at = "TEXT", duration_sec = "REAL"))
   ensure_cols(con, "participant_lineup_set", list(plot_type = "TEXT"))
-  ensure_cols(con, "trial_plan", list(plot_type = "TEXT"))
+  ensure_cols(con, "trial_plan", list(plot_type = "TEXT",base_file = "TEXT",target_plotIndex = "INTEGER",display_order = "TEXT"))
   ensure_cols(con, "participants", list(ended_at = "TEXT", completed = "INTEGER DEFAULT 0"))
   ensure_cols(con, "demographics", list(timestamp = "TEXT", age_range = "TEXT", education_level = "TEXT", gender_identity = "TEXT", color_blind = "TEXT"))
   ensure_cols(con, "recordings", list(sel1 = "INTEGER", sel2 = "INTEGER"))
@@ -266,37 +269,87 @@ server <- function(input, output, session) {
   JS_PATH <- "you-draw-it-svg.js"
   TOTAL_TRIALS <- 12
   D_PER_PERSON <- 4
-
-  img_dir <- "www/Images"
-  box_svgs <- sort(list.files(img_dir, pattern = "^(T5|T6)_boxplot_.*\\.svg$", full.names = FALSE))
-  sc_svgs <- sort(list.files(img_dir, pattern = "^SC_scatter_.*\\.svg$", full.names = FALSE))
-
-  # ensure required SVGs exist
-  if (length(box_svgs) < 3) stop("Need at least 3 boxplot SVGs in Images/ matching ^(T5|T6)_boxplot_.*\\.svg$")
-  if (length(sc_svgs) < 1) stop("Need at least 1 scatter SVGs in Images/ matching ^SC_scatter_.*\\.svg$")
-
-  N_BOX <- length(box_svgs)
-  N_SCATTER <- length(sc_svgs)
-
-  #  map (dataset_id, plot_type) -> filename
-  dataset_id_to_file <- function(dataset_id, plot_type) {
-    if (plot_type == "box") {
-      if (dataset_id < 1 || dataset_id > N_BOX) stop("Box dataset_id out of range: ", dataset_id)
-      return(box_svgs[dataset_id])
-    } else if (plot_type == "scatter") {
-      sc_index <- dataset_id - N_BOX
-      if (sc_index < 1 || sc_index > N_SCATTER) stop("Scatter dataset_id out of range: ", dataset_id)
-      return(sc_svgs[sc_index])
-    } else {
-      stop("Unknown plot_type: ", plot_type)
-    }
+  
+  
+  img_dir <- "www/Images_New"
+  meta_path <- file.path(img_dir, "all_lineup_mapping.csv")
+  
+  if (!file.exists(meta_path)) {
+    stop("Metadata file not found: ", meta_path)
   }
+  
+  lineup_meta <- read.csv(meta_path, stringsAsFactors = FALSE)
+  
+  req_cols <- c("dataset_type", "plot_type", "base_file", "version",
+                "target_orig", "target_plotIndex", "display_order", "svg_file")
+  miss <- setdiff(req_cols, names(lineup_meta))
+  if (length(miss) > 0) {
+    stop("Missing required columns in all_lineup_mapping.csv: ",
+         paste(miss, collapse = ", "))
+  }
+  
+  # one row per underlying dataset
+  box_lookup <- lineup_meta %>%
+    distinct(dataset_type, plot_type, base_file) %>%
+    filter(plot_type == "boxplot") %>%
+    arrange(base_file) %>%
+    mutate(
+      dataset_id = row_number(),
+      plot_type2 = "box"
+    )
+  
+  scatter_lookup <- lineup_meta %>%
+    distinct(dataset_type, plot_type, base_file) %>%
+    filter(plot_type == "scatter") %>%
+    arrange(base_file) %>%
+    mutate(
+      dataset_id = nrow(box_lookup) + row_number(),
+      plot_type2 = "scatter"
+    )
+  
+  dataset_lookup <- bind_rows(box_lookup, scatter_lookup) %>%
+    select(dataset_id, dataset_type, plot_type, plot_type2, base_file)
+  
+  N_BOX <- nrow(box_lookup)
+  N_SCATTER <- nrow(scatter_lookup)
+  
+  if (N_BOX < 3) stop("Need at least 3 unique box datasets in metadata.")
+  if (N_SCATTER < 1) stop("Need at least 1 unique scatter dataset in metadata.")
+  
+  box_ids_all <- box_lookup$dataset_id
+  scatter_ids_all <- scatter_lookup$dataset_id
+  
+  get_lineup_info <- function(dataset_id, method) {
+    row0 <- dataset_lookup %>% filter(dataset_id == !!dataset_id)
+    if (nrow(row0) != 1) stop("dataset_id not found: ", dataset_id)
+    
+    base_file <- row0$base_file[1]
+    
+    row1 <- lineup_meta %>%
+      filter(base_file == !!base_file, version == !!method)
+    
+    if (nrow(row1) != 1) {
+      stop("Could not find unique lineup for dataset_id=", dataset_id,
+           " and method=", method)
+    }
+    
+    list(
+      base_file = row1$base_file[1],
+      lineup_file = row1$svg_file[1],
+      target_plotIndex = as.integer(row1$target_plotIndex[1]),
+      display_order = row1$display_order[1],
+      dataset_type = row1$dataset_type[1],
+      plot_type = ifelse(row1$plot_type[1] == "scatter", "scatter", "box")
+    )
+  }
+
+
 ###############Trial plan helpers################################################
   
   # trial plan stored in reactiveVal after start experiment
   trial_plan_rv <- reactiveVal(NULL)
 
-  make_payload_from_file <- function(fn) list(svg = paste0("Images/", fn), n_panels = 20, filename = fn)
+  make_payload_from_file <- function(fn) list(svg = paste0("Images_New/", fn), n_panels = 20, filename = fn)
 
   get_trial_payload <- function(trial_n) {
     tp <- trial_plan_rv()
@@ -304,12 +357,23 @@ server <- function(input, output, session) {
     fn <- tp$lineup_file[tp$trial_n == trial_n][1]
     make_payload_from_file(fn)
   }
-
-  # fetch lineup payload for a given trial number
+  
   get_trial_method <- function(trial_n) {
     tp <- trial_plan_rv()
     req(!is.null(tp), nrow(tp) == TOTAL_TRIALS)
     tp$method[tp$trial_n == trial_n][1]
+  }
+  
+  get_trial_target <- function(trial_n) {
+    tp <- trial_plan_rv()
+    req(!is.null(tp), nrow(tp) == TOTAL_TRIALS)
+    tp$target_plotIndex[tp$trial_n == trial_n][1]
+  }
+  
+  get_trial_display_order <- function(trial_n) {
+    tp <- trial_plan_rv()
+    req(!is.null(tp), nrow(tp) == TOTAL_TRIALS)
+    tp$display_order[tp$trial_n == trial_n][1]
   }
 
 ##################Reactive state################################
@@ -446,7 +510,7 @@ server <- function(input, output, session) {
           options = list(mode = "highlight", annotation = FALSE)
         )
       })
-    } else if (m == "Summary") {
+    } else if (m == "Text") {
       showTab("topnav", "Summary")
       updateTabsetPanel(session, "topnav", selected = "Summary")
 
@@ -644,12 +708,12 @@ server <- function(input, output, session) {
     ", params = list(participant_id, session_id))$pid_index[1]
     
     # assign datasets
-    assigned_df <- assign_datasets_random(
+    assigned_df <- assign_datasets_balanced(
       con = con,
       participant_id = participant_id,
       session_id = session_id,
-      n_box = N_BOX,
-      n_scatter = N_SCATTER,
+      box_ids_all = box_ids_all,
+      scatter_ids_all = scatter_ids_all,
       D = D_PER_PERSON
     )
     
@@ -665,19 +729,31 @@ server <- function(input, output, session) {
       sched0 <- make_schedule(pid_index, assigned_df)
       
       sched <- sched0 %>%
+        rowwise() %>%
+        mutate(
+          info = list(get_lineup_info(dataset_id, method)),
+          base_file = info$base_file,
+          lineup_file = info$lineup_file,
+          target_plotIndex = info$target_plotIndex,
+          display_order = info$display_order
+        ) %>%
+        ungroup() %>%
         mutate(
           participant_id = participant_id,
-          session_id     = session_id,
-          lineup_file    = mapply(dataset_id_to_file, dataset_id, plot_type)
+          session_id = session_id
         ) %>%
-        select(participant_id, session_id, trial_n, dataset_id, plot_type, method, lineup_file)
+        select(
+          participant_id, session_id, trial_n, dataset_id, plot_type, method,
+          base_file, lineup_file, target_plotIndex, display_order
+        )
       
       append_df(con, "trial_plan", sched)
     }
     
     # load trial_plan into memory for fast access during the run
     tp <- dbGetQuery(con, "
-      SELECT trial_n, dataset_id, plot_type, method, lineup_file
+      SELECT trial_n, dataset_id, plot_type, method,
+             base_file, lineup_file, target_plotIndex, display_order
       FROM trial_plan
       WHERE participant_id = ? AND session_id = ?
       ORDER BY trial_n;
@@ -883,7 +959,7 @@ server <- function(input, output, session) {
 ###############text summary handlers##################################################
   # text summary
   observeEvent(input$submit_summary, {
-    req(rvs$trial_n >= 1, get_trial_method(rvs$trial_n) == "Summary")
+    req(rvs$trial_n >= 1, get_trial_method(rvs$trial_n) == "Text")
 
     sel1 <- if (input$sum_sel1 == "-" || is.null(input$sum_sel1)) NA_integer_ else as.integer(input$sum_sel1)
     sel2 <- if (input$sum_sel2 == "-" || is.null(input$sum_sel2)) NA_integer_ else as.integer(input$sum_sel2)
