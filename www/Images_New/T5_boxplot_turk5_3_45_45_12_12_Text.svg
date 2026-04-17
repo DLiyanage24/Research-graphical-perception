@@ -1,0 +1,2307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="720px" height="576px" viewBox="0 0 720 576" version="1.1">
+  <metadata xmlns:gridsvg="http://www.stat.auckland.ac.nz/~paul/R/gridSVG/">
+    <gridsvg:generator name="gridSVG" version="1.7-7" time="2026-04-14 19:35:21.992462"/>
+    <gridsvg:argument name="name" value="www/Images_New/T5_boxplot_turk5_3_45_45_12_12_Text.svg"/>
+    <gridsvg:argument name="exportCoords" value="none"/>
+    <gridsvg:argument name="exportMappings" value="none"/>
+    <gridsvg:argument name="exportJS" value="none"/>
+    <gridsvg:argument name="res" value="72"/>
+    <gridsvg:argument name="prefix" value=""/>
+    <gridsvg:argument name="addClasses" value="FALSE"/>
+    <gridsvg:argument name="indent" value="TRUE"/>
+    <gridsvg:argument name="htmlWrapper" value="FALSE"/>
+    <gridsvg:argument name="usePaths" value="vpPaths"/>
+    <gridsvg:argument name="uniqueNames" value="FALSE"/>
+    <gridsvg:separator name="id.sep" value="."/>
+    <gridsvg:separator name="gPath.sep" value="::"/>
+    <gridsvg:separator name="vpPath.sep" value="::"/>
+  </metadata>
+  <g transform="translate(0, 576) scale(1, -1)">
+    <g id="gridSVG" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="none" stroke-width="0.75" font-size="12" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" opacity="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0" font-weight="normal" font-style="normal">
+      <defs>
+        <symbol id="gridSVG.pch19" viewBox="-5 -5 10 10" overflow="visible">
+          <circle cx="0" cy="0" r="3.75"/>
+        </symbol>
+      </defs>
+      <g id="layout.1">
+        <g id="layout">
+          <defs>
+            <clipPath id="layout::background.1-29-32-1.1.clipPath">
+              <rect x="0" y="0" width="720" height="576" fill="none" stroke="none"/>
+            </clipPath>
+          </defs>
+          <g id="layout::background.1-29-32-1.1" clip-path="url(#layout::background.1-29-32-1.1.clipPath)">
+            <g id="background.1-29-32-1">
+              <g id="plot.background..rect.486550">
+                <rect id="plot.background..rect.486550.1" x="0" y="0" width="720" height="576" transform="" stroke-width="1.07" stroke="none" fill="rgb(255,255,255)" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="0" fill-opacity="1"/>
+              </g>
+            </g>
+          </g>
+          <g id="layout::panel-1-1.10-7-10-7.1">
+            <g id="panel-1-1.10-7-10-7">
+              <defs>
+                <clipPath id="layout::panel-1-1.10-7-10-7::GRID.VP.40820.1.clipPath">
+                  <rect x="0" y="433.62" width="142.27" height="120.48" fill="none" stroke="none"/>
+                </clipPath>
+              </defs>
+              <g id="layout::panel-1-1.10-7-10-7::GRID.VP.40820.1" clip-path="url(#layout::panel-1-1.10-7-10-7::GRID.VP.40820.1.clipPath)">
+                <g id="panel_01">
+                  <g id="grill.gTree.485888">
+                    <g id="panel.background..rect.485886">
+                      <rect id="panel.background..rect.485886.1" x="0" y="433.62" width="142.27" height="120.48" transform="" stroke-width="1.07" stroke="none" fill="rgb(255,255,255)" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="0" fill-opacity="1"/>
+                    </g>
+                  </g>
+                  <g id="geom_boxplot.gTree.485463">
+                    <g id="geom_boxplot.gTree.485451">
+                      <g id="geom_point.points.485443">
+                        <use id="geom_point.points.485443.1" href="#gridSVG.pch19" x="92.24" y="466.48" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485443.2" href="#gridSVG.pch19" x="135.81" y="466.48" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485443.3" href="#gridSVG.pch19" x="85.48" y="466.48" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485443.4" href="#gridSVG.pch19" x="99.41" y="466.48" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485443.5" href="#gridSVG.pch19" x="104.43" y="466.48" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485445">
+                        <polyline id="GRID.segments.485445.1" points="39.92,466.48 81.84,466.48" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485445.2" points="11.11,466.48 6.47,466.48" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485450">
+                        <g id="geom_polygon.polygon.485448">
+                          <polygon id="geom_polygon.polygon.485448.1" points="39.92,450.05 11.11,450.05 11.11,482.91 39.92,482.91 39.92,450.05" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485449">
+                          <polyline id="GRID.segments.485449.1" points="25.99,450.05 25.99,482.91" stroke="rgb(248,118,109)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="geom_boxplot.gTree.485461">
+                      <g id="geom_point.points.485453">
+                        <use id="geom_point.points.485453.1" href="#gridSVG.pch19" x="94.69" y="521.24" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485453.2" href="#gridSVG.pch19" x="76.85" y="521.24" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485455">
+                        <polyline id="GRID.segments.485455.1" points="35.19,521.24 61.66,521.24" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485455.2" points="11.4,521.24 6.64,521.24" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485460">
+                        <g id="geom_polygon.polygon.485458">
+                          <polygon id="geom_polygon.polygon.485458.1" points="35.19,504.81 11.4,504.81 11.4,537.67 35.19,537.67 35.19,504.81" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485459">
+                          <polyline id="GRID.segments.485459.1" points="23.99,504.81 23.99,537.67" stroke="rgb(0,191,196)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="panel.border..rect.485881">
+                    <rect id="panel.border..rect.485881.1" x="0" y="433.62" width="142.27" height="120.48" transform="" stroke-width="1.28" stroke="rgb(102,102,102)" fill="none" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="1" fill-opacity="0"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::panel-1-2.15-7-15-7.1">
+            <g id="panel-1-2.15-7-15-7">
+              <defs>
+                <clipPath id="layout::panel-1-2.15-7-15-7::GRID.VP.40825.1.clipPath">
+                  <rect x="0" y="289.08" width="142.27" height="120.48" fill="none" stroke="none"/>
+                </clipPath>
+              </defs>
+              <g id="layout::panel-1-2.15-7-15-7::GRID.VP.40825.1" clip-path="url(#layout::panel-1-2.15-7-15-7::GRID.VP.40825.1.clipPath)">
+                <g id="panel_06">
+                  <g id="grill.gTree.485943">
+                    <g id="panel.background..rect.485941">
+                      <rect id="panel.background..rect.485941.1" x="0" y="289.08" width="142.27" height="120.48" transform="" stroke-width="1.07" stroke="none" fill="rgb(255,255,255)" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="0" fill-opacity="1"/>
+                    </g>
+                  </g>
+                  <g id="geom_boxplot.gTree.485571">
+                    <g id="geom_boxplot.gTree.485559">
+                      <g id="geom_point.points.485551">
+                        <use id="geom_point.points.485551.1" href="#gridSVG.pch19" x="92.24" y="321.94" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485551.2" href="#gridSVG.pch19" x="135.81" y="321.94" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485551.3" href="#gridSVG.pch19" x="104.43" y="321.94" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485553">
+                        <polyline id="GRID.segments.485553.1" points="37.01,321.94 65.88,321.94" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485553.2" points="10.31,321.94 6.64,321.94" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485558">
+                        <g id="geom_polygon.polygon.485556">
+                          <polygon id="geom_polygon.polygon.485556.1" points="37.01,305.51 10.31,305.51 10.31,338.37 37.01,338.37 37.01,305.51" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485557">
+                          <polyline id="GRID.segments.485557.1" points="23.44,305.51 23.44,338.37" stroke="rgb(248,118,109)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="geom_boxplot.gTree.485569">
+                      <g id="geom_point.points.485561">
+                        <use id="geom_point.points.485561.1" href="#gridSVG.pch19" x="69.63" y="376.7" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485561.2" href="#gridSVG.pch19" x="94.69" y="376.7" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485561.3" href="#gridSVG.pch19" x="81.84" y="376.7" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485561.4" href="#gridSVG.pch19" x="76.85" y="376.7" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485561.5" href="#gridSVG.pch19" x="85.48" y="376.7" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485561.6" href="#gridSVG.pch19" x="99.41" y="376.7" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485563">
+                        <polyline id="GRID.segments.485563.1" points="39.85,376.7 61.66,376.7" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485563.2" points="20.19,376.7 6.47,376.7" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485568">
+                        <g id="geom_polygon.polygon.485566">
+                          <polygon id="geom_polygon.polygon.485566.1" points="39.85,360.27 20.19,360.27 20.19,393.13 39.85,393.13 39.85,360.27" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485567">
+                          <polyline id="GRID.segments.485567.1" points="28.35,360.27 28.35,393.13" stroke="rgb(0,191,196)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="panel.border..rect.485936">
+                    <rect id="panel.border..rect.485936.1" x="0" y="289.08" width="142.27" height="120.48" transform="" stroke-width="1.28" stroke="rgb(102,102,102)" fill="none" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="1" fill-opacity="0"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::panel-1-3.20-7-20-7.1">
+            <g id="panel-1-3.20-7-20-7">
+              <defs>
+                <clipPath id="layout::panel-1-3.20-7-20-7::GRID.VP.40830.1.clipPath">
+                  <rect x="0" y="144.54" width="142.27" height="120.48" fill="none" stroke="none"/>
+                </clipPath>
+              </defs>
+              <g id="layout::panel-1-3.20-7-20-7::GRID.VP.40830.1" clip-path="url(#layout::panel-1-3.20-7-20-7::GRID.VP.40830.1.clipPath)">
+                <g id="panel_11">
+                  <g id="grill.gTree.485998">
+                    <g id="panel.background..rect.485996">
+                      <rect id="panel.background..rect.485996.1" x="0" y="144.54" width="142.27" height="120.48" transform="" stroke-width="1.07" stroke="none" fill="rgb(255,255,255)" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="0" fill-opacity="1"/>
+                    </g>
+                  </g>
+                  <g id="geom_boxplot.gTree.485681">
+                    <g id="geom_boxplot.gTree.485669">
+                      <g id="geom_point.points.485661">
+                        <use id="geom_point.points.485661.1" href="#gridSVG.pch19" x="94.69" y="177.4" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485661.2" href="#gridSVG.pch19" x="135.81" y="177.4" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485661.3" href="#gridSVG.pch19" x="99.41" y="177.4" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485661.4" href="#gridSVG.pch19" x="104.43" y="177.4" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485663">
+                        <polyline id="GRID.segments.485663.1" points="41.17,177.4 85.48,177.4" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485663.2" points="11.4,177.4 6.64,177.4" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485668">
+                        <g id="geom_polygon.polygon.485666">
+                          <polygon id="geom_polygon.polygon.485666.1" points="41.17,160.97 11.4,160.97 11.4,193.83 41.17,193.83 41.17,160.97" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485667">
+                          <polyline id="GRID.segments.485667.1" points="28.35,160.97 28.35,193.83" stroke="rgb(248,118,109)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="geom_boxplot.gTree.485679">
+                      <g id="geom_point.points.485671">
+                        <use id="geom_point.points.485671.1" href="#gridSVG.pch19" x="92.24" y="232.16" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485671.2" href="#gridSVG.pch19" x="81.84" y="232.16" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485671.3" href="#gridSVG.pch19" x="76.85" y="232.16" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485673">
+                        <polyline id="GRID.segments.485673.1" points="35.02,232.16 61.4,232.16" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485673.2" points="11.09,232.16 6.47,232.16" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485678">
+                        <g id="geom_polygon.polygon.485676">
+                          <polygon id="geom_polygon.polygon.485676.1" points="35.02,215.73 11.09,215.73 11.09,248.59 35.02,248.59 35.02,215.73" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485677">
+                          <polyline id="GRID.segments.485677.1" points="23.22,215.73 23.22,248.59" stroke="rgb(0,191,196)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="panel.border..rect.485991">
+                    <rect id="panel.border..rect.485991.1" x="0" y="144.54" width="142.27" height="120.48" transform="" stroke-width="1.28" stroke="rgb(102,102,102)" fill="none" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="1" fill-opacity="0"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::panel-1-4.25-7-25-7.1">
+            <g id="panel-1-4.25-7-25-7">
+              <defs>
+                <clipPath id="layout::panel-1-4.25-7-25-7::GRID.VP.40835.1.clipPath">
+                  <rect x="0" y="0" width="142.27" height="120.48" fill="none" stroke="none"/>
+                </clipPath>
+              </defs>
+              <g id="layout::panel-1-4.25-7-25-7::GRID.VP.40835.1" clip-path="url(#layout::panel-1-4.25-7-25-7::GRID.VP.40835.1.clipPath)">
+                <g id="panel_16">
+                  <g id="grill.gTree.486053">
+                    <g id="panel.background..rect.486051">
+                      <rect id="panel.background..rect.486051.1" x="0" y="0" width="142.27" height="120.48" transform="" stroke-width="1.07" stroke="none" fill="rgb(255,255,255)" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="0" fill-opacity="1"/>
+                    </g>
+                  </g>
+                  <g id="geom_boxplot.gTree.485791">
+                    <g id="geom_boxplot.gTree.485779">
+                      <g id="geom_point.points.485771">
+                        <use id="geom_point.points.485771.1" href="#gridSVG.pch19" x="69.63" y="32.86" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485771.2" href="#gridSVG.pch19" x="61.66" y="32.86" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485771.3" href="#gridSVG.pch19" x="135.81" y="32.86" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485771.4" href="#gridSVG.pch19" x="76.85" y="32.86" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485771.5" href="#gridSVG.pch19" x="61.4" y="32.86" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485771.6" href="#gridSVG.pch19" x="85.48" y="32.86" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485773">
+                        <polyline id="GRID.segments.485773.1" points="33.4,32.86 44.12,32.86" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485773.2" points="14.83,32.86 6.47,32.86" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485778">
+                        <g id="geom_polygon.polygon.485776">
+                          <polygon id="geom_polygon.polygon.485776.1" points="33.4,16.43 14.83,16.43 14.83,49.29 33.4,49.29 33.4,16.43" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485777">
+                          <polyline id="GRID.segments.485777.1" points="24.37,16.43 24.37,49.29" stroke="rgb(248,118,109)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="geom_boxplot.gTree.485789">
+                      <g id="geom_point.points.485781">
+                        <use id="geom_point.points.485781.1" href="#gridSVG.pch19" x="94.69" y="87.62" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485781.2" href="#gridSVG.pch19" x="92.24" y="87.62" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485781.3" href="#gridSVG.pch19" x="99.41" y="87.62" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485781.4" href="#gridSVG.pch19" x="104.43" y="87.62" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485783">
+                        <polyline id="GRID.segments.485783.1" points="41.38,87.62 81.84,87.62" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485783.2" points="10.54,87.62 6.64,87.62" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485788">
+                        <g id="geom_polygon.polygon.485786">
+                          <polygon id="geom_polygon.polygon.485786.1" points="41.38,71.19 10.54,71.19 10.54,104.05 41.38,104.05 41.38,71.19" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485787">
+                          <polyline id="GRID.segments.485787.1" points="24.6,71.19 24.6,104.05" stroke="rgb(0,191,196)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="panel.border..rect.486046">
+                    <rect id="panel.border..rect.486046.1" x="0" y="0" width="142.27" height="120.48" transform="" stroke-width="1.28" stroke="rgb(102,102,102)" fill="none" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="1" fill-opacity="0"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::panel-2-1.10-11-10-11.1">
+            <g id="panel-2-1.10-11-10-11">
+              <defs>
+                <clipPath id="layout::panel-2-1.10-11-10-11::GRID.VP.40821.1.clipPath">
+                  <rect x="144.43" y="433.62" width="142.27" height="120.48" fill="none" stroke="none"/>
+                </clipPath>
+              </defs>
+              <g id="layout::panel-2-1.10-11-10-11::GRID.VP.40821.1" clip-path="url(#layout::panel-2-1.10-11-10-11::GRID.VP.40821.1.clipPath)">
+                <g id="panel_02">
+                  <g id="grill.gTree.485899">
+                    <g id="panel.background..rect.485897">
+                      <rect id="panel.background..rect.485897.1" x="144.43" y="433.62" width="142.27" height="120.48" transform="" stroke-width="1.07" stroke="none" fill="rgb(255,255,255)" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="0" fill-opacity="1"/>
+                    </g>
+                  </g>
+                  <g id="geom_boxplot.gTree.485485">
+                    <g id="geom_boxplot.gTree.485473">
+                      <g id="geom_point.points.485465">
+                        <use id="geom_point.points.485465.1" href="#gridSVG.pch19" x="280.24" y="466.48" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485467">
+                        <polyline id="GRID.segments.485467.1" points="195.76,466.48 243.84,466.48" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485467.2" points="157.15,466.48 150.9,466.48" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485472">
+                        <g id="geom_polygon.polygon.485470">
+                          <polygon id="geom_polygon.polygon.485470.1" points="195.76,450.05 157.15,450.05 157.15,482.91 195.76,482.91 195.76,450.05" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485471">
+                          <polyline id="GRID.segments.485471.1" points="172.43,450.05 172.43,482.91" stroke="rgb(248,118,109)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="geom_boxplot.gTree.485483">
+                      <g id="geom_point.points.485475">
+                        <use id="geom_point.points.485475.1" href="#gridSVG.pch19" x="221.28" y="521.24" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485475.2" href="#gridSVG.pch19" x="248.86" y="521.24" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485477">
+                        <polyline id="GRID.segments.485477.1" points="177.12,521.24 197.93,521.24" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485477.2" points="155.53,521.24 151.44,521.24" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485482">
+                        <g id="geom_polygon.polygon.485480">
+                          <polygon id="geom_polygon.polygon.485480.1" points="177.12,504.81 155.53,504.81 155.53,537.67 177.12,537.67 177.12,504.81" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485481">
+                          <polyline id="GRID.segments.485481.1" points="166.71,504.81 166.71,537.67" stroke="rgb(0,191,196)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="panel.border..rect.485892">
+                    <rect id="panel.border..rect.485892.1" x="144.43" y="433.62" width="142.27" height="120.48" transform="" stroke-width="1.28" stroke="rgb(102,102,102)" fill="none" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="1" fill-opacity="0"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::panel-2-2.15-11-15-11.1">
+            <g id="panel-2-2.15-11-15-11">
+              <defs>
+                <clipPath id="layout::panel-2-2.15-11-15-11::GRID.VP.40826.1.clipPath">
+                  <rect x="144.43" y="289.08" width="142.27" height="120.48" fill="none" stroke="none"/>
+                </clipPath>
+              </defs>
+              <g id="layout::panel-2-2.15-11-15-11::GRID.VP.40826.1" clip-path="url(#layout::panel-2-2.15-11-15-11::GRID.VP.40826.1.clipPath)">
+                <g id="panel_07">
+                  <g id="grill.gTree.485954">
+                    <g id="panel.background..rect.485952">
+                      <rect id="panel.background..rect.485952.1" x="144.43" y="289.08" width="142.27" height="120.48" transform="" stroke-width="1.07" stroke="none" fill="rgb(255,255,255)" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="0" fill-opacity="1"/>
+                    </g>
+                  </g>
+                  <g id="geom_boxplot.gTree.485593">
+                    <g id="geom_boxplot.gTree.485581">
+                      <g id="geom_point.points.485573">
+                        <use id="geom_point.points.485573.1" href="#gridSVG.pch19" x="280.24" y="321.94" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485573.2" href="#gridSVG.pch19" x="229.91" y="321.94" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485573.3" href="#gridSVG.pch19" x="248.86" y="321.94" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485575">
+                        <polyline id="GRID.segments.485575.1" points="183.61,321.94 210.32,321.94" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485575.2" points="155.53,321.94 150.9,321.94" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485580">
+                        <g id="geom_polygon.polygon.485578">
+                          <polygon id="geom_polygon.polygon.485578.1" points="183.61,305.51 155.53,305.51 155.53,338.37 183.61,338.37 183.61,305.51" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485579">
+                          <polyline id="GRID.segments.485579.1" points="168.8,305.51 168.8,338.37" stroke="rgb(248,118,109)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="geom_boxplot.gTree.485591">
+                      <g id="geom_point.points.485583">
+                        <use id="geom_point.points.485583.1" href="#gridSVG.pch19" x="239.12" y="376.7" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485583.2" href="#gridSVG.pch19" x="236.67" y="376.7" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485583.3" href="#gridSVG.pch19" x="226.27" y="376.7" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485583.4" href="#gridSVG.pch19" x="243.84" y="376.7" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485585">
+                        <polyline id="GRID.segments.485585.1" points="183.37,376.7 221.28,376.7" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485585.2" points="156.21,376.7 151.08,376.7" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485590">
+                        <g id="geom_polygon.polygon.485588">
+                          <polygon id="geom_polygon.polygon.485588.1" points="183.37,360.27 156.21,360.27 156.21,393.13 183.37,393.13 183.37,360.27" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485589">
+                          <polyline id="GRID.segments.485589.1" points="169.03,360.27 169.03,393.13" stroke="rgb(0,191,196)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="panel.border..rect.485947">
+                    <rect id="panel.border..rect.485947.1" x="144.43" y="289.08" width="142.27" height="120.48" transform="" stroke-width="1.28" stroke="rgb(102,102,102)" fill="none" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="1" fill-opacity="0"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::panel-2-3.20-11-20-11.1">
+            <g id="panel-2-3.20-11-20-11">
+              <defs>
+                <clipPath id="layout::panel-2-3.20-11-20-11::GRID.VP.40831.1.clipPath">
+                  <rect x="144.43" y="144.54" width="142.27" height="120.48" fill="none" stroke="none"/>
+                </clipPath>
+              </defs>
+              <g id="layout::panel-2-3.20-11-20-11::GRID.VP.40831.1" clip-path="url(#layout::panel-2-3.20-11-20-11::GRID.VP.40831.1.clipPath)">
+                <g id="panel_12">
+                  <g id="grill.gTree.486009">
+                    <g id="panel.background..rect.486007">
+                      <rect id="panel.background..rect.486007.1" x="144.43" y="144.54" width="142.27" height="120.48" transform="" stroke-width="1.07" stroke="none" fill="rgb(255,255,255)" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="0" fill-opacity="1"/>
+                    </g>
+                  </g>
+                  <g id="geom_boxplot.gTree.485703">
+                    <g id="geom_boxplot.gTree.485691">
+                      <g id="geom_point.points.485683">
+                        <use id="geom_point.points.485683.1" href="#gridSVG.pch19" x="226.27" y="177.4" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485683.2" href="#gridSVG.pch19" x="280.24" y="177.4" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485685">
+                        <polyline id="GRID.segments.485685.1" points="179.45,177.4 214.06,177.4" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485685.2" points="155.53,177.4 151.08,177.4" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485690">
+                        <g id="geom_polygon.polygon.485688">
+                          <polygon id="geom_polygon.polygon.485688.1" points="179.45,160.97 155.53,160.97 155.53,193.83 179.45,193.83 179.45,160.97" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485689">
+                          <polyline id="GRID.segments.485689.1" points="167.12,160.97 167.12,193.83" stroke="rgb(248,118,109)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="geom_boxplot.gTree.485701">
+                      <g id="geom_point.points.485693">
+                        <use id="geom_point.points.485693.1" href="#gridSVG.pch19" x="239.12" y="232.16" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485693.2" href="#gridSVG.pch19" x="236.67" y="232.16" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485693.3" href="#gridSVG.pch19" x="243.84" y="232.16" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485693.4" href="#gridSVG.pch19" x="248.86" y="232.16" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485695">
+                        <polyline id="GRID.segments.485695.1" points="185.81,232.16 229.91,232.16" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485695.2" points="156.21,232.16 150.9,232.16" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485700">
+                        <g id="geom_polygon.polygon.485698">
+                          <polygon id="geom_polygon.polygon.485698.1" points="185.81,215.73 156.21,215.73 156.21,248.59 185.81,248.59 185.81,215.73" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485699">
+                          <polyline id="GRID.segments.485699.1" points="173.24,215.73 173.24,248.59" stroke="rgb(0,191,196)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="panel.border..rect.486002">
+                    <rect id="panel.border..rect.486002.1" x="144.43" y="144.54" width="142.27" height="120.48" transform="" stroke-width="1.28" stroke="rgb(102,102,102)" fill="none" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="1" fill-opacity="0"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::panel-2-4.25-11-25-11.1">
+            <g id="panel-2-4.25-11-25-11">
+              <defs>
+                <clipPath id="layout::panel-2-4.25-11-25-11::GRID.VP.40836.1.clipPath">
+                  <rect x="144.43" y="0" width="142.27" height="120.48" fill="none" stroke="none"/>
+                </clipPath>
+              </defs>
+              <g id="layout::panel-2-4.25-11-25-11::GRID.VP.40836.1" clip-path="url(#layout::panel-2-4.25-11-25-11::GRID.VP.40836.1.clipPath)">
+                <g id="panel_17">
+                  <g id="grill.gTree.486064">
+                    <g id="panel.background..rect.486062">
+                      <rect id="panel.background..rect.486062.1" x="144.43" y="0" width="142.27" height="120.48" transform="" stroke-width="1.07" stroke="none" fill="rgb(255,255,255)" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="0" fill-opacity="1"/>
+                    </g>
+                  </g>
+                  <g id="geom_boxplot.gTree.485813">
+                    <g id="geom_boxplot.gTree.485801">
+                      <g id="geom_point.points.485793">
+                        <use id="geom_point.points.485793.1" href="#gridSVG.pch19" x="239.12" y="32.86" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485793.2" href="#gridSVG.pch19" x="236.67" y="32.86" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485793.3" href="#gridSVG.pch19" x="280.24" y="32.86" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485795">
+                        <polyline id="GRID.segments.485795.1" points="182.61,32.86 221.28,32.86" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485795.2" points="155.54,32.86 151.08,32.86" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485800">
+                        <g id="geom_polygon.polygon.485798">
+                          <polygon id="geom_polygon.polygon.485798.1" points="182.61,16.43 155.54,16.43 155.54,49.29 182.61,49.29 182.61,16.43" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485799">
+                          <polyline id="GRID.segments.485799.1" points="168.42,16.43 168.42,49.29" stroke="rgb(248,118,109)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="geom_boxplot.gTree.485811">
+                      <g id="geom_point.points.485803">
+                        <use id="geom_point.points.485803.1" href="#gridSVG.pch19" x="229.91" y="87.62" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485803.2" href="#gridSVG.pch19" x="243.84" y="87.62" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485803.3" href="#gridSVG.pch19" x="248.86" y="87.62" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485805">
+                        <polyline id="GRID.segments.485805.1" points="184.36,87.62 226.27,87.62" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485805.2" points="155.83,87.62 150.9,87.62" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485810">
+                        <g id="geom_polygon.polygon.485808">
+                          <polygon id="geom_polygon.polygon.485808.1" points="184.36,71.19 155.83,71.19 155.83,104.05 184.36,104.05 184.36,71.19" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485809">
+                          <polyline id="GRID.segments.485809.1" points="169.03,71.19 169.03,104.05" stroke="rgb(0,191,196)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="panel.border..rect.486057">
+                    <rect id="panel.border..rect.486057.1" x="144.43" y="0" width="142.27" height="120.48" transform="" stroke-width="1.28" stroke="rgb(102,102,102)" fill="none" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="1" fill-opacity="0"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::panel-3-1.10-15-10-15.1">
+            <g id="panel-3-1.10-15-10-15">
+              <defs>
+                <clipPath id="layout::panel-3-1.10-15-10-15::GRID.VP.40822.1.clipPath">
+                  <rect x="288.86" y="433.62" width="142.27" height="120.48" fill="none" stroke="none"/>
+                </clipPath>
+              </defs>
+              <g id="layout::panel-3-1.10-15-10-15::GRID.VP.40822.1" clip-path="url(#layout::panel-3-1.10-15-10-15::GRID.VP.40822.1.clipPath)">
+                <g id="panel_03">
+                  <g id="grill.gTree.485910">
+                    <g id="panel.background..rect.485908">
+                      <rect id="panel.background..rect.485908.1" x="288.86" y="433.62" width="142.27" height="120.48" transform="" stroke-width="1.07" stroke="none" fill="rgb(255,255,255)" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="0" fill-opacity="1"/>
+                    </g>
+                  </g>
+                  <g id="geom_boxplot.gTree.485507">
+                    <g id="geom_boxplot.gTree.485495">
+                      <g id="geom_point.points.485487">
+                        <use id="geom_point.points.485487.1" href="#gridSVG.pch19" x="383.55" y="466.48" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485487.2" href="#gridSVG.pch19" x="424.67" y="466.48" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485487.3" href="#gridSVG.pch19" x="374.35" y="466.48" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485487.4" href="#gridSVG.pch19" x="388.27" y="466.48" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485489">
+                        <polyline id="GRID.segments.485489.1" points="328.79,466.48 370.7,466.48" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485489.2" points="299.96,466.48 295.51,466.48" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485494">
+                        <g id="geom_polygon.polygon.485492">
+                          <polygon id="geom_polygon.polygon.485492.1" points="328.79,450.05 299.96,450.05 299.96,482.91 328.79,482.91 328.79,450.05" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485493">
+                          <polyline id="GRID.segments.485493.1" points="314.85,450.05 314.85,482.91" stroke="rgb(248,118,109)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="geom_boxplot.gTree.485505">
+                      <g id="geom_point.points.485497">
+                        <use id="geom_point.points.485497.1" href="#gridSVG.pch19" x="381.1" y="521.24" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485497.2" href="#gridSVG.pch19" x="365.71" y="521.24" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485497.3" href="#gridSVG.pch19" x="393.29" y="521.24" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485499">
+                        <polyline id="GRID.segments.485499.1" points="325.88,521.24 358.49,521.24" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485499.2" points="300.26,521.24 295.33,521.24" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485504">
+                        <g id="geom_polygon.polygon.485502">
+                          <polygon id="geom_polygon.polygon.485502.1" points="325.88,504.81 300.26,504.81 300.26,537.67 325.88,537.67 325.88,504.81" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485503">
+                          <polyline id="GRID.segments.485503.1" points="312.61,504.81 312.61,537.67" stroke="rgb(0,191,196)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="panel.border..rect.485903">
+                    <rect id="panel.border..rect.485903.1" x="288.86" y="433.62" width="142.27" height="120.48" transform="" stroke-width="1.28" stroke="rgb(102,102,102)" fill="none" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="1" fill-opacity="0"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::panel-3-2.15-15-15-15.1">
+            <g id="panel-3-2.15-15-15-15">
+              <defs>
+                <clipPath id="layout::panel-3-2.15-15-15-15::GRID.VP.40827.1.clipPath">
+                  <rect x="288.86" y="289.08" width="142.27" height="120.48" fill="none" stroke="none"/>
+                </clipPath>
+              </defs>
+              <g id="layout::panel-3-2.15-15-15-15::GRID.VP.40827.1" clip-path="url(#layout::panel-3-2.15-15-15-15::GRID.VP.40827.1.clipPath)">
+                <g id="panel_08">
+                  <g id="grill.gTree.485965">
+                    <g id="panel.background..rect.485963">
+                      <rect id="panel.background..rect.485963.1" x="288.86" y="289.08" width="142.27" height="120.48" transform="" stroke-width="1.07" stroke="none" fill="rgb(255,255,255)" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="0" fill-opacity="1"/>
+                    </g>
+                  </g>
+                  <g id="geom_boxplot.gTree.485615">
+                    <g id="geom_boxplot.gTree.485603">
+                      <g id="geom_point.points.485595">
+                        <use id="geom_point.points.485595.1" href="#gridSVG.pch19" x="383.55" y="321.94" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485595.2" href="#gridSVG.pch19" x="424.67" y="321.94" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485595.3" href="#gridSVG.pch19" x="388.27" y="321.94" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485597">
+                        <polyline id="GRID.segments.485597.1" points="332.15,321.94 381.1,321.94" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485597.2" points="299.4,321.94 295.33,321.94" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485602">
+                        <g id="geom_polygon.polygon.485600">
+                          <polygon id="geom_polygon.polygon.485600.1" points="332.15,305.51 299.4,305.51 299.4,338.37 332.15,338.37 332.15,305.51" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485601">
+                          <polyline id="GRID.segments.485601.1" points="312.09,305.51 312.09,338.37" stroke="rgb(248,118,109)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="geom_boxplot.gTree.485613">
+                      <g id="geom_point.points.485605">
+                        <use id="geom_point.points.485605.1" href="#gridSVG.pch19" x="370.7" y="376.7" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485605.2" href="#gridSVG.pch19" x="393.29" y="376.7" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485607">
+                        <polyline id="GRID.segments.485607.1" points="327.05,376.7 350.53,376.7" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485607.2" points="309.05,376.7 296.2,376.7" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485612">
+                        <g id="geom_polygon.polygon.485610">
+                          <polygon id="geom_polygon.polygon.485610.1" points="327.05,360.27 309.05,360.27 309.05,393.13 327.05,393.13 327.05,360.27" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485611">
+                          <polyline id="GRID.segments.485611.1" points="315.58,360.27 315.58,393.13" stroke="rgb(0,191,196)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="panel.border..rect.485958">
+                    <rect id="panel.border..rect.485958.1" x="288.86" y="289.08" width="142.27" height="120.48" transform="" stroke-width="1.28" stroke="rgb(102,102,102)" fill="none" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="1" fill-opacity="0"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::panel-3-3.20-15-20-15.1">
+            <g id="panel-3-3.20-15-20-15">
+              <defs>
+                <clipPath id="layout::panel-3-3.20-15-20-15::GRID.VP.40832.1.clipPath">
+                  <rect x="288.86" y="144.54" width="142.27" height="120.48" fill="none" stroke="none"/>
+                </clipPath>
+              </defs>
+              <g id="layout::panel-3-3.20-15-20-15::GRID.VP.40832.1" clip-path="url(#layout::panel-3-3.20-15-20-15::GRID.VP.40832.1.clipPath)">
+                <g id="panel_13">
+                  <g id="grill.gTree.486020">
+                    <g id="panel.background..rect.486018">
+                      <rect id="panel.background..rect.486018.1" x="288.86" y="144.54" width="142.27" height="120.48" transform="" stroke-width="1.07" stroke="none" fill="rgb(255,255,255)" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="0" fill-opacity="1"/>
+                    </g>
+                  </g>
+                  <g id="geom_boxplot.gTree.485725">
+                    <g id="geom_boxplot.gTree.485713">
+                      <g id="geom_point.points.485705">
+                        <use id="geom_point.points.485705.1" href="#gridSVG.pch19" x="383.55" y="177.4" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485707">
+                        <polyline id="GRID.segments.485707.1" points="324.05,177.4 358.49,177.4" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485707.2" points="299.4,177.4 295.33,177.4" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485712">
+                        <g id="geom_polygon.polygon.485710">
+                          <polygon id="geom_polygon.polygon.485710.1" points="324.05,160.97 299.4,160.97 299.4,193.83 324.05,193.83 324.05,160.97" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485711">
+                          <polyline id="GRID.segments.485711.1" points="310.7,160.97 310.7,193.83" stroke="rgb(248,118,109)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="geom_boxplot.gTree.485723">
+                      <g id="geom_point.points.485715">
+                        <use id="geom_point.points.485715.1" href="#gridSVG.pch19" x="424.67" y="232.16" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485717">
+                        <polyline id="GRID.segments.485717.1" points="341.75,232.16 393.29,232.16" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485717.2" points="306.57,232.16 295.88,232.16" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485722">
+                        <g id="geom_polygon.polygon.485720">
+                          <polygon id="geom_polygon.polygon.485720.1" points="341.75,215.73 306.57,215.73 306.57,248.59 341.75,248.59 341.75,215.73" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485721">
+                          <polyline id="GRID.segments.485721.1" points="316.86,215.73 316.86,248.59" stroke="rgb(0,191,196)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="panel.border..rect.486013">
+                    <rect id="panel.border..rect.486013.1" x="288.86" y="144.54" width="142.27" height="120.48" transform="" stroke-width="1.28" stroke="rgb(102,102,102)" fill="none" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="1" fill-opacity="0"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::panel-3-4.25-15-25-15.1">
+            <g id="panel-3-4.25-15-25-15">
+              <defs>
+                <clipPath id="layout::panel-3-4.25-15-25-15::GRID.VP.40837.1.clipPath">
+                  <rect x="288.86" y="0" width="142.27" height="120.48" fill="none" stroke="none"/>
+                </clipPath>
+              </defs>
+              <g id="layout::panel-3-4.25-15-25-15::GRID.VP.40837.1" clip-path="url(#layout::panel-3-4.25-15-25-15::GRID.VP.40837.1.clipPath)">
+                <g id="panel_18">
+                  <g id="grill.gTree.486075">
+                    <g id="panel.background..rect.486073">
+                      <rect id="panel.background..rect.486073.1" x="288.86" y="0" width="142.27" height="120.48" transform="" stroke-width="1.07" stroke="none" fill="rgb(255,255,255)" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="0" fill-opacity="1"/>
+                    </g>
+                  </g>
+                  <g id="geom_boxplot.gTree.485835">
+                    <g id="geom_boxplot.gTree.485823">
+                      <g id="geom_point.points.485815">
+                        <use id="geom_point.points.485815.1" href="#gridSVG.pch19" x="393.29" y="32.86" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485817">
+                        <polyline id="GRID.segments.485817.1" points="328.71,32.86 370.7,32.86" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485817.2" points="300.64,32.86 295.33,32.86" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485822">
+                        <g id="geom_polygon.polygon.485820">
+                          <polygon id="geom_polygon.polygon.485820.1" points="328.71,16.43 300.64,16.43 300.64,49.29 328.71,49.29 328.71,16.43" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485821">
+                          <polyline id="GRID.segments.485821.1" points="312.85,16.43 312.85,49.29" stroke="rgb(248,118,109)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="geom_boxplot.gTree.485833">
+                      <g id="geom_point.points.485825">
+                        <use id="geom_point.points.485825.1" href="#gridSVG.pch19" x="383.55" y="87.62" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485825.2" href="#gridSVG.pch19" x="381.1" y="87.62" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485825.3" href="#gridSVG.pch19" x="424.67" y="87.62" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485825.4" href="#gridSVG.pch19" x="374.35" y="87.62" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485825.5" href="#gridSVG.pch19" x="388.27" y="87.62" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485827">
+                        <polyline id="GRID.segments.485827.1" points="327.05,87.62 365.71,87.62" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485827.2" points="299.95,87.62 295.51,87.62" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485832">
+                        <g id="geom_polygon.polygon.485830">
+                          <polygon id="geom_polygon.polygon.485830.1" points="327.05,71.19 299.95,71.19 299.95,104.05 327.05,104.05 327.05,71.19" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485831">
+                          <polyline id="GRID.segments.485831.1" points="315.58,71.19 315.58,104.05" stroke="rgb(0,191,196)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="panel.border..rect.486068">
+                    <rect id="panel.border..rect.486068.1" x="288.86" y="0" width="142.27" height="120.48" transform="" stroke-width="1.28" stroke="rgb(102,102,102)" fill="none" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="1" fill-opacity="0"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::panel-4-1.10-19-10-19.1">
+            <g id="panel-4-1.10-19-10-19">
+              <defs>
+                <clipPath id="layout::panel-4-1.10-19-10-19::GRID.VP.40823.1.clipPath">
+                  <rect x="433.3" y="433.62" width="142.27" height="120.48" fill="none" stroke="none"/>
+                </clipPath>
+              </defs>
+              <g id="layout::panel-4-1.10-19-10-19::GRID.VP.40823.1" clip-path="url(#layout::panel-4-1.10-19-10-19::GRID.VP.40823.1.clipPath)">
+                <g id="panel_04">
+                  <g id="grill.gTree.485921">
+                    <g id="panel.background..rect.485919">
+                      <rect id="panel.background..rect.485919.1" x="433.3" y="433.62" width="142.27" height="120.48" transform="" stroke-width="1.07" stroke="none" fill="rgb(255,255,255)" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="0" fill-opacity="1"/>
+                    </g>
+                  </g>
+                  <g id="geom_boxplot.gTree.485527">
+                    <g id="geom_boxplot.gTree.485517">
+                      <g id="geom_point.points.485509">
+                        <use id="geom_point.points.485509.1" href="#gridSVG.pch19" x="527.99" y="466.48" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485509.2" href="#gridSVG.pch19" x="525.53" y="466.48" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485509.3" href="#gridSVG.pch19" x="515.13" y="466.48" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485509.4" href="#gridSVG.pch19" x="569.1" y="466.48" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485509.5" href="#gridSVG.pch19" x="518.78" y="466.48" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485509.6" href="#gridSVG.pch19" x="532.7" y="466.48" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485509.7" href="#gridSVG.pch19" x="537.72" y="466.48" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485511">
+                        <polyline id="GRID.segments.485511.1" points="471.48,466.48 502.92,466.48" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485511.2" points="444.38,466.48 439.94,466.48" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485516">
+                        <g id="geom_polygon.polygon.485514">
+                          <polygon id="geom_polygon.polygon.485514.1" points="471.48,450.05 444.38,450.05 444.38,482.91 471.48,482.91 471.48,450.05" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485515">
+                          <polyline id="GRID.segments.485515.1" points="459.29,450.05 459.29,482.91" stroke="rgb(248,118,109)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="geom_boxplot.gTree.485525">
+                      <g id="GRID.segments.485519">
+                        <polyline id="GRID.segments.485519.1" points="472.47,521.24 510.15,521.24" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485519.2" points="445.77,521.24 439.76,521.24" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485524">
+                        <g id="geom_polygon.polygon.485522">
+                          <polygon id="geom_polygon.polygon.485522.1" points="472.47,504.81 445.77,504.81 445.77,537.67 472.47,537.67 472.47,504.81" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485523">
+                          <polyline id="GRID.segments.485523.1" points="457.04,504.81 457.04,537.67" stroke="rgb(0,191,196)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="panel.border..rect.485914">
+                    <rect id="panel.border..rect.485914.1" x="433.3" y="433.62" width="142.27" height="120.48" transform="" stroke-width="1.28" stroke="rgb(102,102,102)" fill="none" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="1" fill-opacity="0"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::panel-4-2.15-19-15-19.1">
+            <g id="panel-4-2.15-19-15-19">
+              <defs>
+                <clipPath id="layout::panel-4-2.15-19-15-19::GRID.VP.40828.1.clipPath">
+                  <rect x="433.3" y="289.08" width="142.27" height="120.48" fill="none" stroke="none"/>
+                </clipPath>
+              </defs>
+              <g id="layout::panel-4-2.15-19-15-19::GRID.VP.40828.1" clip-path="url(#layout::panel-4-2.15-19-15-19::GRID.VP.40828.1.clipPath)">
+                <g id="panel_09">
+                  <g id="grill.gTree.485976">
+                    <g id="panel.background..rect.485974">
+                      <rect id="panel.background..rect.485974.1" x="433.3" y="289.08" width="142.27" height="120.48" transform="" stroke-width="1.07" stroke="none" fill="rgb(255,255,255)" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="0" fill-opacity="1"/>
+                    </g>
+                  </g>
+                  <g id="geom_boxplot.gTree.485637">
+                    <g id="geom_boxplot.gTree.485625">
+                      <g id="geom_point.points.485617">
+                        <use id="geom_point.points.485617.1" href="#gridSVG.pch19" x="569.1" y="321.94" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485619">
+                        <polyline id="GRID.segments.485619.1" points="474.67,321.94 518.78,321.94" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485619.2" points="444.41,321.94 440.63,321.94" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485624">
+                        <g id="geom_polygon.polygon.485622">
+                          <polygon id="geom_polygon.polygon.485622.1" points="474.67,305.51 444.41,305.51 444.41,338.37 474.67,338.37 474.67,305.51" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485623">
+                          <polyline id="GRID.segments.485623.1" points="457.28,305.51 457.28,338.37" stroke="rgb(248,118,109)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="geom_boxplot.gTree.485635">
+                      <g id="geom_point.points.485627">
+                        <use id="geom_point.points.485627.1" href="#gridSVG.pch19" x="527.99" y="376.7" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485627.2" href="#gridSVG.pch19" x="525.53" y="376.7" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485627.3" href="#gridSVG.pch19" x="532.7" y="376.7" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485627.4" href="#gridSVG.pch19" x="537.72" y="376.7" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485629">
+                        <polyline id="GRID.segments.485629.1" points="468.32,376.7 502.92,376.7" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485629.2" points="444.69,376.7 439.76,376.7" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485634">
+                        <g id="geom_polygon.polygon.485632">
+                          <polygon id="geom_polygon.polygon.485632.1" points="468.32,360.27 444.69,360.27 444.69,393.13 468.32,393.13 468.32,360.27" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485633">
+                          <polyline id="GRID.segments.485633.1" points="457.9,360.27 457.9,393.13" stroke="rgb(0,191,196)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="panel.border..rect.485969">
+                    <rect id="panel.border..rect.485969.1" x="433.3" y="289.08" width="142.27" height="120.48" transform="" stroke-width="1.28" stroke="rgb(102,102,102)" fill="none" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="1" fill-opacity="0"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::panel-4-3.20-19-20-19.1">
+            <g id="panel-4-3.20-19-20-19">
+              <defs>
+                <clipPath id="layout::panel-4-3.20-19-20-19::GRID.VP.40833.1.clipPath">
+                  <rect x="433.3" y="144.54" width="142.27" height="120.48" fill="none" stroke="none"/>
+                </clipPath>
+              </defs>
+              <g id="layout::panel-4-3.20-19-20-19::GRID.VP.40833.1" clip-path="url(#layout::panel-4-3.20-19-20-19::GRID.VP.40833.1.clipPath)">
+                <g id="panel_14">
+                  <g id="grill.gTree.486031">
+                    <g id="panel.background..rect.486029">
+                      <rect id="panel.background..rect.486029.1" x="433.3" y="144.54" width="142.27" height="120.48" transform="" stroke-width="1.07" stroke="none" fill="rgb(255,255,255)" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="0" fill-opacity="1"/>
+                    </g>
+                  </g>
+                  <g id="geom_boxplot.gTree.485747">
+                    <g id="geom_boxplot.gTree.485735">
+                      <g id="geom_point.points.485727">
+                        <use id="geom_point.points.485727.1" href="#gridSVG.pch19" x="525.53" y="177.4" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485727.2" href="#gridSVG.pch19" x="569.1" y="177.4" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485729">
+                        <polyline id="GRID.segments.485729.1" points="473.15,177.4 502.92,177.4" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485729.2" points="446.02,177.4 439.76,177.4" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485734">
+                        <g id="geom_polygon.polygon.485732">
+                          <polygon id="geom_polygon.polygon.485732.1" points="473.15,160.97 446.02,160.97 446.02,193.83 473.15,193.83 473.15,160.97" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485733">
+                          <polyline id="GRID.segments.485733.1" points="461.65,160.97 461.65,193.83" stroke="rgb(248,118,109)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="geom_boxplot.gTree.485745">
+                      <g id="geom_point.points.485737">
+                        <use id="geom_point.points.485737.1" href="#gridSVG.pch19" x="527.99" y="232.16" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485737.2" href="#gridSVG.pch19" x="515.13" y="232.16" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485737.3" href="#gridSVG.pch19" x="510.15" y="232.16" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485737.4" href="#gridSVG.pch19" x="518.78" y="232.16" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485737.5" href="#gridSVG.pch19" x="532.7" y="232.16" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485737.6" href="#gridSVG.pch19" x="537.72" y="232.16" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485739">
+                        <polyline id="GRID.segments.485739.1" points="470.31,232.16 494.7,232.16" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485739.2" points="444.39,232.16 440.31,232.16" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485744">
+                        <g id="geom_polygon.polygon.485742">
+                          <polygon id="geom_polygon.polygon.485742.1" points="470.31,215.73 444.39,215.73 444.39,248.59 470.31,248.59 470.31,215.73" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485743">
+                          <polyline id="GRID.segments.485743.1" points="457.04,215.73 457.04,248.59" stroke="rgb(0,191,196)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="panel.border..rect.486024">
+                    <rect id="panel.border..rect.486024.1" x="433.3" y="144.54" width="142.27" height="120.48" transform="" stroke-width="1.28" stroke="rgb(102,102,102)" fill="none" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="1" fill-opacity="0"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::panel-4-4.25-19-25-19.1">
+            <g id="panel-4-4.25-19-25-19">
+              <defs>
+                <clipPath id="layout::panel-4-4.25-19-25-19::GRID.VP.40838.1.clipPath">
+                  <rect x="433.3" y="0" width="142.27" height="120.48" fill="none" stroke="none"/>
+                </clipPath>
+              </defs>
+              <g id="layout::panel-4-4.25-19-25-19::GRID.VP.40838.1" clip-path="url(#layout::panel-4-4.25-19-25-19::GRID.VP.40838.1.clipPath)">
+                <g id="panel_19">
+                  <g id="grill.gTree.486086">
+                    <g id="panel.background..rect.486084">
+                      <rect id="panel.background..rect.486084.1" x="433.3" y="0" width="142.27" height="120.48" transform="" stroke-width="1.07" stroke="none" fill="rgb(255,255,255)" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="0" fill-opacity="1"/>
+                    </g>
+                  </g>
+                  <g id="geom_boxplot.gTree.485857">
+                    <g id="geom_boxplot.gTree.485845">
+                      <g id="geom_point.points.485837">
+                        <use id="geom_point.points.485837.1" href="#gridSVG.pch19" x="525.53" y="32.86" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485837.2" href="#gridSVG.pch19" x="518.78" y="32.86" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485839">
+                        <polyline id="GRID.segments.485839.1" points="468.32,32.86 494.7,32.86" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485839.2" points="444.03,32.86 439.76,32.86" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485844">
+                        <g id="geom_polygon.polygon.485842">
+                          <polygon id="geom_polygon.polygon.485842.1" points="468.32,16.43 444.03,16.43 444.03,49.29 468.32,49.29 468.32,16.43" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485843">
+                          <polyline id="GRID.segments.485843.1" points="455.98,16.43 455.98,49.29" stroke="rgb(248,118,109)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="geom_boxplot.gTree.485855">
+                      <g id="geom_point.points.485847">
+                        <use id="geom_point.points.485847.1" href="#gridSVG.pch19" x="527.99" y="87.62" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485847.2" href="#gridSVG.pch19" x="569.1" y="87.62" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485847.3" href="#gridSVG.pch19" x="532.7" y="87.62" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485847.4" href="#gridSVG.pch19" x="537.72" y="87.62" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485849">
+                        <polyline id="GRID.segments.485849.1" points="477.42,87.62 515.13,87.62" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485849.2" points="451,87.62 440.31,87.62" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485854">
+                        <g id="geom_polygon.polygon.485852">
+                          <polygon id="geom_polygon.polygon.485852.1" points="477.42,71.19 451,71.19 451,104.05 477.42,104.05 477.42,71.19" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485853">
+                          <polyline id="GRID.segments.485853.1" points="461.3,71.19 461.3,104.05" stroke="rgb(0,191,196)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="panel.border..rect.486079">
+                    <rect id="panel.border..rect.486079.1" x="433.3" y="0" width="142.27" height="120.48" transform="" stroke-width="1.28" stroke="rgb(102,102,102)" fill="none" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="1" fill-opacity="0"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::panel-5-1.10-23-10-23.1">
+            <g id="panel-5-1.10-23-10-23">
+              <defs>
+                <clipPath id="layout::panel-5-1.10-23-10-23::GRID.VP.40824.1.clipPath">
+                  <rect x="577.73" y="433.62" width="142.27" height="120.48" fill="none" stroke="none"/>
+                </clipPath>
+              </defs>
+              <g id="layout::panel-5-1.10-23-10-23::GRID.VP.40824.1" clip-path="url(#layout::panel-5-1.10-23-10-23::GRID.VP.40824.1.clipPath)">
+                <g id="panel_05">
+                  <g id="grill.gTree.485932">
+                    <g id="panel.background..rect.485930">
+                      <rect id="panel.background..rect.485930.1" x="577.73" y="433.62" width="142.27" height="120.48" transform="" stroke-width="1.07" stroke="none" fill="rgb(255,255,255)" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="0" fill-opacity="1"/>
+                    </g>
+                  </g>
+                  <g id="geom_boxplot.gTree.485549">
+                    <g id="geom_boxplot.gTree.485537">
+                      <g id="geom_point.points.485529">
+                        <use id="geom_point.points.485529.1" href="#gridSVG.pch19" x="672.42" y="466.48" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485529.2" href="#gridSVG.pch19" x="669.97" y="466.48" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485529.3" href="#gridSVG.pch19" x="659.57" y="466.48" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485529.4" href="#gridSVG.pch19" x="713.53" y="466.48" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485529.5" href="#gridSVG.pch19" x="682.15" y="466.48" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485531">
+                        <polyline id="GRID.segments.485531.1" points="619.11,466.48 647.36,466.48" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485531.2" points="592.55,466.48 584.19,466.48" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485536">
+                        <g id="geom_polygon.polygon.485534">
+                          <polygon id="geom_polygon.polygon.485534.1" points="619.11,450.05 592.55,450.05 592.55,482.91 619.11,482.91 619.11,450.05" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485535">
+                          <polyline id="GRID.segments.485535.1" points="604.06,450.05 604.06,482.91" stroke="rgb(248,118,109)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="geom_boxplot.gTree.485547">
+                      <g id="geom_point.points.485539">
+                        <use id="geom_point.points.485539.1" href="#gridSVG.pch19" x="654.58" y="521.24" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485539.2" href="#gridSVG.pch19" x="663.21" y="521.24" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485539.3" href="#gridSVG.pch19" x="677.13" y="521.24" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485541">
+                        <polyline id="GRID.segments.485541.1" points="612.92,521.24 643.61,521.24" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485541.2" points="588.47,521.24 584.74,521.24" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485546">
+                        <g id="geom_polygon.polygon.485544">
+                          <polygon id="geom_polygon.polygon.485544.1" points="612.92,504.81 588.47,504.81 588.47,537.67 612.92,537.67 612.92,504.81" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485545">
+                          <polyline id="GRID.segments.485545.1" points="601.72,504.81 601.72,537.67" stroke="rgb(0,191,196)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="panel.border..rect.485925">
+                    <rect id="panel.border..rect.485925.1" x="577.73" y="433.62" width="142.27" height="120.48" transform="" stroke-width="1.28" stroke="rgb(102,102,102)" fill="none" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="1" fill-opacity="0"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::panel-5-2.15-23-15-23.1">
+            <g id="panel-5-2.15-23-15-23">
+              <defs>
+                <clipPath id="layout::panel-5-2.15-23-15-23::GRID.VP.40829.1.clipPath">
+                  <rect x="577.73" y="289.08" width="142.27" height="120.48" fill="none" stroke="none"/>
+                </clipPath>
+              </defs>
+              <g id="layout::panel-5-2.15-23-15-23::GRID.VP.40829.1" clip-path="url(#layout::panel-5-2.15-23-15-23::GRID.VP.40829.1.clipPath)">
+                <g id="panel_10">
+                  <g id="grill.gTree.485987">
+                    <g id="panel.background..rect.485985">
+                      <rect id="panel.background..rect.485985.1" x="577.73" y="289.08" width="142.27" height="120.48" transform="" stroke-width="1.07" stroke="none" fill="rgb(255,255,255)" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="0" fill-opacity="1"/>
+                    </g>
+                  </g>
+                  <g id="geom_boxplot.gTree.485659">
+                    <g id="geom_boxplot.gTree.485647">
+                      <g id="geom_point.points.485639">
+                        <use id="geom_point.points.485639.1" href="#gridSVG.pch19" x="669.97" y="321.94" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485639.2" href="#gridSVG.pch19" x="677.13" y="321.94" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485639.3" href="#gridSVG.pch19" x="682.15" y="321.94" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485641">
+                        <polyline id="GRID.segments.485641.1" points="614.61,321.94 634.91,321.94" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485641.2" points="589.12,321.94 584.37,321.94" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485646">
+                        <g id="geom_polygon.polygon.485644">
+                          <polygon id="geom_polygon.polygon.485644.1" points="614.61,305.51 589.12,305.51 589.12,338.37 614.61,338.37 614.61,305.51" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485645">
+                          <polyline id="GRID.segments.485645.1" points="601.47,305.51 601.47,338.37" stroke="rgb(248,118,109)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="geom_boxplot.gTree.485657">
+                      <g id="geom_point.points.485649">
+                        <use id="geom_point.points.485649.1" href="#gridSVG.pch19" x="672.42" y="376.7" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485649.2" href="#gridSVG.pch19" x="713.53" y="376.7" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485651">
+                        <polyline id="GRID.segments.485651.1" points="618.9,376.7 663.21,376.7" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485651.2" points="588.84,376.7 584.19,376.7" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485656">
+                        <g id="geom_polygon.polygon.485654">
+                          <polygon id="geom_polygon.polygon.485654.1" points="618.9,360.27 588.84,360.27 588.84,393.13 618.9,393.13 618.9,360.27" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485655">
+                          <polyline id="GRID.segments.485655.1" points="603.72,360.27 603.72,393.13" stroke="rgb(0,191,196)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="panel.border..rect.485980">
+                    <rect id="panel.border..rect.485980.1" x="577.73" y="289.08" width="142.27" height="120.48" transform="" stroke-width="1.28" stroke="rgb(102,102,102)" fill="none" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="1" fill-opacity="0"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::panel-5-3.20-23-20-23.1">
+            <g id="panel-5-3.20-23-20-23">
+              <defs>
+                <clipPath id="layout::panel-5-3.20-23-20-23::GRID.VP.40834.1.clipPath">
+                  <rect x="577.73" y="144.54" width="142.27" height="120.48" fill="none" stroke="none"/>
+                </clipPath>
+              </defs>
+              <g id="layout::panel-5-3.20-23-20-23::GRID.VP.40834.1" clip-path="url(#layout::panel-5-3.20-23-20-23::GRID.VP.40834.1.clipPath)">
+                <g id="panel_15">
+                  <g id="grill.gTree.486042">
+                    <g id="panel.background..rect.486040">
+                      <rect id="panel.background..rect.486040.1" x="577.73" y="144.54" width="142.27" height="120.48" transform="" stroke-width="1.07" stroke="none" fill="rgb(255,255,255)" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="0" fill-opacity="1"/>
+                    </g>
+                  </g>
+                  <g id="geom_boxplot.gTree.485769">
+                    <g id="geom_boxplot.gTree.485757">
+                      <g id="geom_point.points.485749">
+                        <use id="geom_point.points.485749.1" href="#gridSVG.pch19" x="669.97" y="177.4" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485749.2" href="#gridSVG.pch19" x="659.57" y="177.4" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485749.3" href="#gridSVG.pch19" x="663.21" y="177.4" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485749.4" href="#gridSVG.pch19" x="682.15" y="177.4" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485751">
+                        <polyline id="GRID.segments.485751.1" points="616.91,177.4 643.61,177.4" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485751.2" points="592.55,177.4 584.37,177.4" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485756">
+                        <g id="geom_polygon.polygon.485754">
+                          <polygon id="geom_polygon.polygon.485754.1" points="616.91,160.97 592.55,160.97 592.55,193.83 616.91,193.83 616.91,160.97" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485755">
+                          <polyline id="GRID.segments.485755.1" points="604.06,160.97 604.06,193.83" stroke="rgb(248,118,109)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="geom_boxplot.gTree.485767">
+                      <g id="geom_point.points.485759">
+                        <use id="geom_point.points.485759.1" href="#gridSVG.pch19" x="672.42" y="232.16" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485759.2" href="#gridSVG.pch19" x="713.53" y="232.16" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485759.3" href="#gridSVG.pch19" x="677.13" y="232.16" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485761">
+                        <polyline id="GRID.segments.485761.1" points="615.91,232.16 654.58,232.16" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485761.2" points="588.47,232.16 584.19,232.16" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485766">
+                        <g id="geom_polygon.polygon.485764">
+                          <polygon id="geom_polygon.polygon.485764.1" points="615.91,215.73 588.47,215.73 588.47,248.59 615.91,248.59 615.91,215.73" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485765">
+                          <polyline id="GRID.segments.485765.1" points="602.1,215.73 602.1,248.59" stroke="rgb(0,191,196)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="panel.border..rect.486035">
+                    <rect id="panel.border..rect.486035.1" x="577.73" y="144.54" width="142.27" height="120.48" transform="" stroke-width="1.28" stroke="rgb(102,102,102)" fill="none" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="1" fill-opacity="0"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::panel-5-4.25-23-25-23.1">
+            <g id="panel-5-4.25-23-25-23">
+              <defs>
+                <clipPath id="layout::panel-5-4.25-23-25-23::GRID.VP.40839.1.clipPath">
+                  <rect x="577.73" y="0" width="142.27" height="120.48" fill="none" stroke="none"/>
+                </clipPath>
+              </defs>
+              <g id="layout::panel-5-4.25-23-25-23::GRID.VP.40839.1" clip-path="url(#layout::panel-5-4.25-23-25-23::GRID.VP.40839.1.clipPath)">
+                <g id="panel_20">
+                  <g id="grill.gTree.486097">
+                    <g id="panel.background..rect.486095">
+                      <rect id="panel.background..rect.486095.1" x="577.73" y="0" width="142.27" height="120.48" transform="" stroke-width="1.07" stroke="none" fill="rgb(255,255,255)" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="0" fill-opacity="1"/>
+                    </g>
+                  </g>
+                  <g id="geom_boxplot.gTree.485879">
+                    <g id="geom_boxplot.gTree.485867">
+                      <g id="geom_point.points.485859">
+                        <use id="geom_point.points.485859.1" href="#gridSVG.pch19" x="672.42" y="32.86" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485859.2" href="#gridSVG.pch19" x="713.53" y="32.86" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485859.3" href="#gridSVG.pch19" x="682.15" y="32.86" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485861">
+                        <polyline id="GRID.segments.485861.1" points="614.74,32.86 639.13,32.86" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485861.2" points="590.2,32.86 584.74,32.86" stroke="rgb(248,118,109)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485866">
+                        <g id="geom_polygon.polygon.485864">
+                          <polygon id="geom_polygon.polygon.485864.1" points="614.74,16.43 590.2,16.43 590.2,49.29 614.74,49.29 614.74,16.43" stroke="rgb(248,118,109)" fill="rgb(248,118,109)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485865">
+                          <polyline id="GRID.segments.485865.1" points="601.17,16.43 601.17,49.29" stroke="rgb(248,118,109)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="geom_boxplot.gTree.485877">
+                      <g id="geom_point.points.485869">
+                        <use id="geom_point.points.485869.1" href="#gridSVG.pch19" x="669.97" y="87.62" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                        <use id="geom_point.points.485869.2" href="#gridSVG.pch19" x="677.13" y="87.62" width="4.36" height="4.36" transform=" translate(-2.18,-2.18)" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.63" font-size="4.36" stroke-opacity="0.5" fill-opacity="0.5"/>
+                      </g>
+                      <g id="GRID.segments.485871">
+                        <polyline id="GRID.segments.485871.1" points="621.01,87.62 663.21,87.62" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                        <polyline id="GRID.segments.485871.2" points="588.81,87.62 584.19,87.62" stroke="rgb(0,191,196)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+                      </g>
+                      <g id="geom_crossbar.gTree.485876">
+                        <g id="geom_polygon.polygon.485874">
+                          <polygon id="geom_polygon.polygon.485874.1" points="621.01,71.19 588.81,71.19 588.81,104.05 621.01,104.05 621.01,71.19" stroke="rgb(0,191,196)" fill="rgb(0,191,196)" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0.5"/>
+                        </g>
+                        <g id="GRID.segments.485875">
+                          <polyline id="GRID.segments.485875.1" points="604.46,71.19 604.46,104.05" stroke="rgb(0,191,196)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1" fill-opacity="1"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="panel.border..rect.486090">
+                    <rect id="panel.border..rect.486090.1" x="577.73" y="0" width="142.27" height="120.48" transform="" stroke-width="1.28" stroke="rgb(102,102,102)" fill="none" stroke-dasharray="none" stroke-linejoin="round" stroke-opacity="1" fill-opacity="0"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::strip-t-1-4.24-7-24-7.1">
+            <g id="strip-t-1-4.24-7-24-7">
+              <g id="layout::strip-t-1-4.24-7-24-7::strip.1">
+                <g id="strip">
+                  <defs>
+                    <clipPath id="layout::strip-t-1-4.24-7-24-7::strip::strip.1-1-1-1.1.clipPath">
+                      <rect x="0" y="120.48" width="142.27" height="21.9" fill="none" stroke="none"/>
+                    </clipPath>
+                  </defs>
+                  <g id="layout::strip-t-1-4.24-7-24-7::strip::strip.1-1-1-1.1" clip-path="url(#layout::strip-t-1-4.24-7-24-7::strip::strip.1-1-1-1.1.clipPath)">
+                    <g id="strip.1-1-1-1">
+                      <g id="strip.gTree.486232">
+                        <g id="strip.text.x.top..titleGrob.486187">
+                          <g id="GRID.text.486185">
+                            <g id="GRID.text.486185.1" transform="translate(71.14, 131.43)" stroke-width="0.1">
+                              <g id="GRID.text.486185.1.scale" transform="scale(1, -1)">
+                                <text x="0" y="0" id="GRID.text.486185.1.text" text-anchor="middle" font-size="14" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                  <tspan id="GRID.text.486185.1.tspan.1" dy="5.03" x="0">16</tspan>
+                                </text>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::strip-t-2-4.24-11-24-11.1">
+            <g id="strip-t-2-4.24-11-24-11">
+              <g id="layout::strip-t-2-4.24-11-24-11::strip.1">
+                <g id="strip">
+                  <defs>
+                    <clipPath id="layout::strip-t-2-4.24-11-24-11::strip::strip.1-1-1-1.1.clipPath">
+                      <rect x="144.43" y="120.48" width="142.27" height="21.9" fill="none" stroke="none"/>
+                    </clipPath>
+                  </defs>
+                  <g id="layout::strip-t-2-4.24-11-24-11::strip::strip.1-1-1-1.1" clip-path="url(#layout::strip-t-2-4.24-11-24-11::strip::strip.1-1-1-1.1.clipPath)">
+                    <g id="strip.1-1-1-1">
+                      <g id="strip.gTree.486234">
+                        <g id="strip.text.x.top..titleGrob.486190">
+                          <g id="GRID.text.486188">
+                            <g id="GRID.text.486188.1" transform="translate(215.57, 131.43)" stroke-width="0.1">
+                              <g id="GRID.text.486188.1.scale" transform="scale(1, -1)">
+                                <text x="0" y="0" id="GRID.text.486188.1.text" text-anchor="middle" font-size="14" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                  <tspan id="GRID.text.486188.1.tspan.1" dy="5.03" x="0">17</tspan>
+                                </text>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::strip-t-3-4.24-15-24-15.1">
+            <g id="strip-t-3-4.24-15-24-15">
+              <g id="layout::strip-t-3-4.24-15-24-15::strip.1">
+                <g id="strip">
+                  <defs>
+                    <clipPath id="layout::strip-t-3-4.24-15-24-15::strip::strip.1-1-1-1.1.clipPath">
+                      <rect x="288.86" y="120.48" width="142.27" height="21.9" fill="none" stroke="none"/>
+                    </clipPath>
+                  </defs>
+                  <g id="layout::strip-t-3-4.24-15-24-15::strip::strip.1-1-1-1.1" clip-path="url(#layout::strip-t-3-4.24-15-24-15::strip::strip.1-1-1-1.1.clipPath)">
+                    <g id="strip.1-1-1-1">
+                      <g id="strip.gTree.486236">
+                        <g id="strip.text.x.top..titleGrob.486193">
+                          <g id="GRID.text.486191">
+                            <g id="GRID.text.486191.1" transform="translate(360, 131.43)" stroke-width="0.1">
+                              <g id="GRID.text.486191.1.scale" transform="scale(1, -1)">
+                                <text x="0" y="0" id="GRID.text.486191.1.text" text-anchor="middle" font-size="14" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                  <tspan id="GRID.text.486191.1.tspan.1" dy="5.03" x="0">18</tspan>
+                                </text>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::strip-t-4-4.24-19-24-19.1">
+            <g id="strip-t-4-4.24-19-24-19">
+              <g id="layout::strip-t-4-4.24-19-24-19::strip.1">
+                <g id="strip">
+                  <defs>
+                    <clipPath id="layout::strip-t-4-4.24-19-24-19::strip::strip.1-1-1-1.1.clipPath">
+                      <rect x="433.3" y="120.48" width="142.27" height="21.9" fill="none" stroke="none"/>
+                    </clipPath>
+                  </defs>
+                  <g id="layout::strip-t-4-4.24-19-24-19::strip::strip.1-1-1-1.1" clip-path="url(#layout::strip-t-4-4.24-19-24-19::strip::strip.1-1-1-1.1.clipPath)">
+                    <g id="strip.1-1-1-1">
+                      <g id="strip.gTree.486238">
+                        <g id="strip.text.x.top..titleGrob.486196">
+                          <g id="GRID.text.486194">
+                            <g id="GRID.text.486194.1" transform="translate(504.43, 131.43)" stroke-width="0.1">
+                              <g id="GRID.text.486194.1.scale" transform="scale(1, -1)">
+                                <text x="0" y="0" id="GRID.text.486194.1.text" text-anchor="middle" font-size="14" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                  <tspan id="GRID.text.486194.1.tspan.1" dy="5.03" x="0">19</tspan>
+                                </text>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::strip-t-5-4.24-23-24-23.1">
+            <g id="strip-t-5-4.24-23-24-23">
+              <g id="layout::strip-t-5-4.24-23-24-23::strip.1">
+                <g id="strip">
+                  <defs>
+                    <clipPath id="layout::strip-t-5-4.24-23-24-23::strip::strip.1-1-1-1.1.clipPath">
+                      <rect x="577.73" y="120.48" width="142.27" height="21.9" fill="none" stroke="none"/>
+                    </clipPath>
+                  </defs>
+                  <g id="layout::strip-t-5-4.24-23-24-23::strip::strip.1-1-1-1.1" clip-path="url(#layout::strip-t-5-4.24-23-24-23::strip::strip.1-1-1-1.1.clipPath)">
+                    <g id="strip.1-1-1-1">
+                      <g id="strip.gTree.486240">
+                        <g id="strip.text.x.top..titleGrob.486199">
+                          <g id="GRID.text.486197">
+                            <g id="GRID.text.486197.1" transform="translate(648.86, 131.43)" stroke-width="0.1">
+                              <g id="GRID.text.486197.1.scale" transform="scale(1, -1)">
+                                <text x="0" y="0" id="GRID.text.486197.1.text" text-anchor="middle" font-size="14" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                  <tspan id="GRID.text.486197.1.tspan.1" dy="5.03" x="0">20</tspan>
+                                </text>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::strip-t-1-3.19-7-19-7.1">
+            <g id="strip-t-1-3.19-7-19-7">
+              <g id="layout::strip-t-1-3.19-7-19-7::strip.1">
+                <g id="strip">
+                  <defs>
+                    <clipPath id="layout::strip-t-1-3.19-7-19-7::strip::strip.1-1-1-1.1.clipPath">
+                      <rect x="0" y="265.02" width="142.27" height="21.9" fill="none" stroke="none"/>
+                    </clipPath>
+                  </defs>
+                  <g id="layout::strip-t-1-3.19-7-19-7::strip::strip.1-1-1-1.1" clip-path="url(#layout::strip-t-1-3.19-7-19-7::strip::strip.1-1-1-1.1.clipPath)">
+                    <g id="strip.1-1-1-1">
+                      <g id="strip.gTree.486222">
+                        <g id="strip.text.x.top..titleGrob.486172">
+                          <g id="GRID.text.486170">
+                            <g id="GRID.text.486170.1" transform="translate(71.14, 275.97)" stroke-width="0.1">
+                              <g id="GRID.text.486170.1.scale" transform="scale(1, -1)">
+                                <text x="0" y="0" id="GRID.text.486170.1.text" text-anchor="middle" font-size="14" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                  <tspan id="GRID.text.486170.1.tspan.1" dy="5.03" x="0">11</tspan>
+                                </text>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::strip-t-2-3.19-11-19-11.1">
+            <g id="strip-t-2-3.19-11-19-11">
+              <g id="layout::strip-t-2-3.19-11-19-11::strip.1">
+                <g id="strip">
+                  <defs>
+                    <clipPath id="layout::strip-t-2-3.19-11-19-11::strip::strip.1-1-1-1.1.clipPath">
+                      <rect x="144.43" y="265.02" width="142.27" height="21.9" fill="none" stroke="none"/>
+                    </clipPath>
+                  </defs>
+                  <g id="layout::strip-t-2-3.19-11-19-11::strip::strip.1-1-1-1.1" clip-path="url(#layout::strip-t-2-3.19-11-19-11::strip::strip.1-1-1-1.1.clipPath)">
+                    <g id="strip.1-1-1-1">
+                      <g id="strip.gTree.486224">
+                        <g id="strip.text.x.top..titleGrob.486175">
+                          <g id="GRID.text.486173">
+                            <g id="GRID.text.486173.1" transform="translate(215.57, 275.97)" stroke-width="0.1">
+                              <g id="GRID.text.486173.1.scale" transform="scale(1, -1)">
+                                <text x="0" y="0" id="GRID.text.486173.1.text" text-anchor="middle" font-size="14" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                  <tspan id="GRID.text.486173.1.tspan.1" dy="5.03" x="0">12</tspan>
+                                </text>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::strip-t-3-3.19-15-19-15.1">
+            <g id="strip-t-3-3.19-15-19-15">
+              <g id="layout::strip-t-3-3.19-15-19-15::strip.1">
+                <g id="strip">
+                  <defs>
+                    <clipPath id="layout::strip-t-3-3.19-15-19-15::strip::strip.1-1-1-1.1.clipPath">
+                      <rect x="288.86" y="265.02" width="142.27" height="21.9" fill="none" stroke="none"/>
+                    </clipPath>
+                  </defs>
+                  <g id="layout::strip-t-3-3.19-15-19-15::strip::strip.1-1-1-1.1" clip-path="url(#layout::strip-t-3-3.19-15-19-15::strip::strip.1-1-1-1.1.clipPath)">
+                    <g id="strip.1-1-1-1">
+                      <g id="strip.gTree.486226">
+                        <g id="strip.text.x.top..titleGrob.486178">
+                          <g id="GRID.text.486176">
+                            <g id="GRID.text.486176.1" transform="translate(360, 275.97)" stroke-width="0.1">
+                              <g id="GRID.text.486176.1.scale" transform="scale(1, -1)">
+                                <text x="0" y="0" id="GRID.text.486176.1.text" text-anchor="middle" font-size="14" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                  <tspan id="GRID.text.486176.1.tspan.1" dy="5.03" x="0">13</tspan>
+                                </text>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::strip-t-4-3.19-19-19-19.1">
+            <g id="strip-t-4-3.19-19-19-19">
+              <g id="layout::strip-t-4-3.19-19-19-19::strip.1">
+                <g id="strip">
+                  <defs>
+                    <clipPath id="layout::strip-t-4-3.19-19-19-19::strip::strip.1-1-1-1.1.clipPath">
+                      <rect x="433.3" y="265.02" width="142.27" height="21.9" fill="none" stroke="none"/>
+                    </clipPath>
+                  </defs>
+                  <g id="layout::strip-t-4-3.19-19-19-19::strip::strip.1-1-1-1.1" clip-path="url(#layout::strip-t-4-3.19-19-19-19::strip::strip.1-1-1-1.1.clipPath)">
+                    <g id="strip.1-1-1-1">
+                      <g id="strip.gTree.486228">
+                        <g id="strip.text.x.top..titleGrob.486181">
+                          <g id="GRID.text.486179">
+                            <g id="GRID.text.486179.1" transform="translate(504.43, 275.97)" stroke-width="0.1">
+                              <g id="GRID.text.486179.1.scale" transform="scale(1, -1)">
+                                <text x="0" y="0" id="GRID.text.486179.1.text" text-anchor="middle" font-size="14" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                  <tspan id="GRID.text.486179.1.tspan.1" dy="5.03" x="0">14</tspan>
+                                </text>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::strip-t-5-3.19-23-19-23.1">
+            <g id="strip-t-5-3.19-23-19-23">
+              <g id="layout::strip-t-5-3.19-23-19-23::strip.1">
+                <g id="strip">
+                  <defs>
+                    <clipPath id="layout::strip-t-5-3.19-23-19-23::strip::strip.1-1-1-1.1.clipPath">
+                      <rect x="577.73" y="265.02" width="142.27" height="21.9" fill="none" stroke="none"/>
+                    </clipPath>
+                  </defs>
+                  <g id="layout::strip-t-5-3.19-23-19-23::strip::strip.1-1-1-1.1" clip-path="url(#layout::strip-t-5-3.19-23-19-23::strip::strip.1-1-1-1.1.clipPath)">
+                    <g id="strip.1-1-1-1">
+                      <g id="strip.gTree.486230">
+                        <g id="strip.text.x.top..titleGrob.486184">
+                          <g id="GRID.text.486182">
+                            <g id="GRID.text.486182.1" transform="translate(648.86, 275.97)" stroke-width="0.1">
+                              <g id="GRID.text.486182.1.scale" transform="scale(1, -1)">
+                                <text x="0" y="0" id="GRID.text.486182.1.text" text-anchor="middle" font-size="14" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                  <tspan id="GRID.text.486182.1.tspan.1" dy="5.03" x="0">15</tspan>
+                                </text>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::strip-t-1-2.14-7-14-7.1">
+            <g id="strip-t-1-2.14-7-14-7">
+              <g id="layout::strip-t-1-2.14-7-14-7::strip.1">
+                <g id="strip">
+                  <defs>
+                    <clipPath id="layout::strip-t-1-2.14-7-14-7::strip::strip.1-1-1-1.1.clipPath">
+                      <rect x="0" y="409.56" width="142.27" height="21.9" fill="none" stroke="none"/>
+                    </clipPath>
+                  </defs>
+                  <g id="layout::strip-t-1-2.14-7-14-7::strip::strip.1-1-1-1.1" clip-path="url(#layout::strip-t-1-2.14-7-14-7::strip::strip.1-1-1-1.1.clipPath)">
+                    <g id="strip.1-1-1-1">
+                      <g id="strip.gTree.486212">
+                        <g id="strip.text.x.top..titleGrob.486157">
+                          <g id="GRID.text.486155">
+                            <g id="GRID.text.486155.1" transform="translate(71.14, 420.51)" stroke-width="0.1">
+                              <g id="GRID.text.486155.1.scale" transform="scale(1, -1)">
+                                <text x="0" y="0" id="GRID.text.486155.1.text" text-anchor="middle" font-size="14" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                  <tspan id="GRID.text.486155.1.tspan.1" dy="5.03" x="0">6</tspan>
+                                </text>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::strip-t-2-2.14-11-14-11.1">
+            <g id="strip-t-2-2.14-11-14-11">
+              <g id="layout::strip-t-2-2.14-11-14-11::strip.1">
+                <g id="strip">
+                  <defs>
+                    <clipPath id="layout::strip-t-2-2.14-11-14-11::strip::strip.1-1-1-1.1.clipPath">
+                      <rect x="144.43" y="409.56" width="142.27" height="21.9" fill="none" stroke="none"/>
+                    </clipPath>
+                  </defs>
+                  <g id="layout::strip-t-2-2.14-11-14-11::strip::strip.1-1-1-1.1" clip-path="url(#layout::strip-t-2-2.14-11-14-11::strip::strip.1-1-1-1.1.clipPath)">
+                    <g id="strip.1-1-1-1">
+                      <g id="strip.gTree.486214">
+                        <g id="strip.text.x.top..titleGrob.486160">
+                          <g id="GRID.text.486158">
+                            <g id="GRID.text.486158.1" transform="translate(215.57, 420.51)" stroke-width="0.1">
+                              <g id="GRID.text.486158.1.scale" transform="scale(1, -1)">
+                                <text x="0" y="0" id="GRID.text.486158.1.text" text-anchor="middle" font-size="14" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                  <tspan id="GRID.text.486158.1.tspan.1" dy="5.03" x="0">7</tspan>
+                                </text>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::strip-t-3-2.14-15-14-15.1">
+            <g id="strip-t-3-2.14-15-14-15">
+              <g id="layout::strip-t-3-2.14-15-14-15::strip.1">
+                <g id="strip">
+                  <defs>
+                    <clipPath id="layout::strip-t-3-2.14-15-14-15::strip::strip.1-1-1-1.1.clipPath">
+                      <rect x="288.86" y="409.56" width="142.27" height="21.9" fill="none" stroke="none"/>
+                    </clipPath>
+                  </defs>
+                  <g id="layout::strip-t-3-2.14-15-14-15::strip::strip.1-1-1-1.1" clip-path="url(#layout::strip-t-3-2.14-15-14-15::strip::strip.1-1-1-1.1.clipPath)">
+                    <g id="strip.1-1-1-1">
+                      <g id="strip.gTree.486216">
+                        <g id="strip.text.x.top..titleGrob.486163">
+                          <g id="GRID.text.486161">
+                            <g id="GRID.text.486161.1" transform="translate(360, 420.51)" stroke-width="0.1">
+                              <g id="GRID.text.486161.1.scale" transform="scale(1, -1)">
+                                <text x="0" y="0" id="GRID.text.486161.1.text" text-anchor="middle" font-size="14" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                  <tspan id="GRID.text.486161.1.tspan.1" dy="5.03" x="0">8</tspan>
+                                </text>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::strip-t-4-2.14-19-14-19.1">
+            <g id="strip-t-4-2.14-19-14-19">
+              <g id="layout::strip-t-4-2.14-19-14-19::strip.1">
+                <g id="strip">
+                  <defs>
+                    <clipPath id="layout::strip-t-4-2.14-19-14-19::strip::strip.1-1-1-1.1.clipPath">
+                      <rect x="433.3" y="409.56" width="142.27" height="21.9" fill="none" stroke="none"/>
+                    </clipPath>
+                  </defs>
+                  <g id="layout::strip-t-4-2.14-19-14-19::strip::strip.1-1-1-1.1" clip-path="url(#layout::strip-t-4-2.14-19-14-19::strip::strip.1-1-1-1.1.clipPath)">
+                    <g id="strip.1-1-1-1">
+                      <g id="strip.gTree.486218">
+                        <g id="strip.text.x.top..titleGrob.486166">
+                          <g id="GRID.text.486164">
+                            <g id="GRID.text.486164.1" transform="translate(504.43, 420.51)" stroke-width="0.1">
+                              <g id="GRID.text.486164.1.scale" transform="scale(1, -1)">
+                                <text x="0" y="0" id="GRID.text.486164.1.text" text-anchor="middle" font-size="14" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                  <tspan id="GRID.text.486164.1.tspan.1" dy="5.03" x="0">9</tspan>
+                                </text>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::strip-t-5-2.14-23-14-23.1">
+            <g id="strip-t-5-2.14-23-14-23">
+              <g id="layout::strip-t-5-2.14-23-14-23::strip.1">
+                <g id="strip">
+                  <defs>
+                    <clipPath id="layout::strip-t-5-2.14-23-14-23::strip::strip.1-1-1-1.1.clipPath">
+                      <rect x="577.73" y="409.56" width="142.27" height="21.9" fill="none" stroke="none"/>
+                    </clipPath>
+                  </defs>
+                  <g id="layout::strip-t-5-2.14-23-14-23::strip::strip.1-1-1-1.1" clip-path="url(#layout::strip-t-5-2.14-23-14-23::strip::strip.1-1-1-1.1.clipPath)">
+                    <g id="strip.1-1-1-1">
+                      <g id="strip.gTree.486220">
+                        <g id="strip.text.x.top..titleGrob.486169">
+                          <g id="GRID.text.486167">
+                            <g id="GRID.text.486167.1" transform="translate(648.86, 420.51)" stroke-width="0.1">
+                              <g id="GRID.text.486167.1.scale" transform="scale(1, -1)">
+                                <text x="0" y="0" id="GRID.text.486167.1.text" text-anchor="middle" font-size="14" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                  <tspan id="GRID.text.486167.1.tspan.1" dy="5.03" x="0">10</tspan>
+                                </text>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::strip-t-1-1.9-7-9-7.1">
+            <g id="strip-t-1-1.9-7-9-7">
+              <g id="layout::strip-t-1-1.9-7-9-7::strip.1">
+                <g id="strip">
+                  <defs>
+                    <clipPath id="layout::strip-t-1-1.9-7-9-7::strip::strip.1-1-1-1.1.clipPath">
+                      <rect x="0" y="554.1" width="142.27" height="21.9" fill="none" stroke="none"/>
+                    </clipPath>
+                  </defs>
+                  <g id="layout::strip-t-1-1.9-7-9-7::strip::strip.1-1-1-1.1" clip-path="url(#layout::strip-t-1-1.9-7-9-7::strip::strip.1-1-1-1.1.clipPath)">
+                    <g id="strip.1-1-1-1">
+                      <g id="strip.gTree.486202">
+                        <g id="strip.text.x.top..titleGrob.486142">
+                          <g id="GRID.text.486140">
+                            <g id="GRID.text.486140.1" transform="translate(71.14, 565.05)" stroke-width="0.1">
+                              <g id="GRID.text.486140.1.scale" transform="scale(1, -1)">
+                                <text x="0" y="0" id="GRID.text.486140.1.text" text-anchor="middle" font-size="14" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                  <tspan id="GRID.text.486140.1.tspan.1" dy="5.03" x="0">1</tspan>
+                                </text>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::strip-t-2-1.9-11-9-11.1">
+            <g id="strip-t-2-1.9-11-9-11">
+              <g id="layout::strip-t-2-1.9-11-9-11::strip.1">
+                <g id="strip">
+                  <defs>
+                    <clipPath id="layout::strip-t-2-1.9-11-9-11::strip::strip.1-1-1-1.1.clipPath">
+                      <rect x="144.43" y="554.1" width="142.27" height="21.9" fill="none" stroke="none"/>
+                    </clipPath>
+                  </defs>
+                  <g id="layout::strip-t-2-1.9-11-9-11::strip::strip.1-1-1-1.1" clip-path="url(#layout::strip-t-2-1.9-11-9-11::strip::strip.1-1-1-1.1.clipPath)">
+                    <g id="strip.1-1-1-1">
+                      <g id="strip.gTree.486204">
+                        <g id="strip.text.x.top..titleGrob.486145">
+                          <g id="GRID.text.486143">
+                            <g id="GRID.text.486143.1" transform="translate(215.57, 565.05)" stroke-width="0.1">
+                              <g id="GRID.text.486143.1.scale" transform="scale(1, -1)">
+                                <text x="0" y="0" id="GRID.text.486143.1.text" text-anchor="middle" font-size="14" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                  <tspan id="GRID.text.486143.1.tspan.1" dy="5.03" x="0">2</tspan>
+                                </text>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::strip-t-3-1.9-15-9-15.1">
+            <g id="strip-t-3-1.9-15-9-15">
+              <g id="layout::strip-t-3-1.9-15-9-15::strip.1">
+                <g id="strip">
+                  <defs>
+                    <clipPath id="layout::strip-t-3-1.9-15-9-15::strip::strip.1-1-1-1.1.clipPath">
+                      <rect x="288.86" y="554.1" width="142.27" height="21.9" fill="none" stroke="none"/>
+                    </clipPath>
+                  </defs>
+                  <g id="layout::strip-t-3-1.9-15-9-15::strip::strip.1-1-1-1.1" clip-path="url(#layout::strip-t-3-1.9-15-9-15::strip::strip.1-1-1-1.1.clipPath)">
+                    <g id="strip.1-1-1-1">
+                      <g id="strip.gTree.486206">
+                        <g id="strip.text.x.top..titleGrob.486148">
+                          <g id="GRID.text.486146">
+                            <g id="GRID.text.486146.1" transform="translate(360, 565.05)" stroke-width="0.1">
+                              <g id="GRID.text.486146.1.scale" transform="scale(1, -1)">
+                                <text x="0" y="0" id="GRID.text.486146.1.text" text-anchor="middle" font-size="14" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                  <tspan id="GRID.text.486146.1.tspan.1" dy="5.03" x="0">3</tspan>
+                                </text>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::strip-t-4-1.9-19-9-19.1">
+            <g id="strip-t-4-1.9-19-9-19">
+              <g id="layout::strip-t-4-1.9-19-9-19::strip.1">
+                <g id="strip">
+                  <defs>
+                    <clipPath id="layout::strip-t-4-1.9-19-9-19::strip::strip.1-1-1-1.1.clipPath">
+                      <rect x="433.3" y="554.1" width="142.27" height="21.9" fill="none" stroke="none"/>
+                    </clipPath>
+                  </defs>
+                  <g id="layout::strip-t-4-1.9-19-9-19::strip::strip.1-1-1-1.1" clip-path="url(#layout::strip-t-4-1.9-19-9-19::strip::strip.1-1-1-1.1.clipPath)">
+                    <g id="strip.1-1-1-1">
+                      <g id="strip.gTree.486208">
+                        <g id="strip.text.x.top..titleGrob.486151">
+                          <g id="GRID.text.486149">
+                            <g id="GRID.text.486149.1" transform="translate(504.43, 565.05)" stroke-width="0.1">
+                              <g id="GRID.text.486149.1.scale" transform="scale(1, -1)">
+                                <text x="0" y="0" id="GRID.text.486149.1.text" text-anchor="middle" font-size="14" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                  <tspan id="GRID.text.486149.1.tspan.1" dy="5.03" x="0">4</tspan>
+                                </text>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::strip-t-5-1.9-23-9-23.1">
+            <g id="strip-t-5-1.9-23-9-23">
+              <g id="layout::strip-t-5-1.9-23-9-23::strip.1">
+                <g id="strip">
+                  <defs>
+                    <clipPath id="layout::strip-t-5-1.9-23-9-23::strip::strip.1-1-1-1.1.clipPath">
+                      <rect x="577.73" y="554.1" width="142.27" height="21.9" fill="none" stroke="none"/>
+                    </clipPath>
+                  </defs>
+                  <g id="layout::strip-t-5-1.9-23-9-23::strip::strip.1-1-1-1.1" clip-path="url(#layout::strip-t-5-1.9-23-9-23::strip::strip.1-1-1-1.1.clipPath)">
+                    <g id="strip.1-1-1-1">
+                      <g id="strip.gTree.486210">
+                        <g id="strip.text.x.top..titleGrob.486154">
+                          <g id="GRID.text.486152">
+                            <g id="GRID.text.486152.1" transform="translate(648.86, 565.05)" stroke-width="0.1">
+                              <g id="GRID.text.486152.1.scale" transform="scale(1, -1)">
+                                <text x="0" y="0" id="GRID.text.486152.1.text" text-anchor="middle" font-size="14" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                  <tspan id="GRID.text.486152.1.tspan.1" dy="5.03" x="0">5</tspan>
+                                </text>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::axis-t-1-4.23-7-23-7.1">
+            <g id="axis-t-1-4.23-7-23-7"/>
+          </g>
+          <g id="layout::axis-t-2-4.23-11-23-11.1">
+            <g id="axis-t-2-4.23-11-23-11"/>
+          </g>
+          <g id="layout::axis-t-3-4.23-15-23-15.1">
+            <g id="axis-t-3-4.23-15-23-15"/>
+          </g>
+          <g id="layout::axis-t-4-4.23-19-23-19.1">
+            <g id="axis-t-4-4.23-19-23-19"/>
+          </g>
+          <g id="layout::axis-t-5-4.23-23-23-23.1">
+            <g id="axis-t-5-4.23-23-23-23"/>
+          </g>
+          <g id="layout::axis-t-1-3.18-7-18-7.1">
+            <g id="axis-t-1-3.18-7-18-7"/>
+          </g>
+          <g id="layout::axis-t-2-3.18-11-18-11.1">
+            <g id="axis-t-2-3.18-11-18-11"/>
+          </g>
+          <g id="layout::axis-t-3-3.18-15-18-15.1">
+            <g id="axis-t-3-3.18-15-18-15"/>
+          </g>
+          <g id="layout::axis-t-4-3.18-19-18-19.1">
+            <g id="axis-t-4-3.18-19-18-19"/>
+          </g>
+          <g id="layout::axis-t-5-3.18-23-18-23.1">
+            <g id="axis-t-5-3.18-23-18-23"/>
+          </g>
+          <g id="layout::axis-t-1-2.13-7-13-7.1">
+            <g id="axis-t-1-2.13-7-13-7"/>
+          </g>
+          <g id="layout::axis-t-2-2.13-11-13-11.1">
+            <g id="axis-t-2-2.13-11-13-11"/>
+          </g>
+          <g id="layout::axis-t-3-2.13-15-13-15.1">
+            <g id="axis-t-3-2.13-15-13-15"/>
+          </g>
+          <g id="layout::axis-t-4-2.13-19-13-19.1">
+            <g id="axis-t-4-2.13-19-13-19"/>
+          </g>
+          <g id="layout::axis-t-5-2.13-23-13-23.1">
+            <g id="axis-t-5-2.13-23-13-23"/>
+          </g>
+          <g id="layout::axis-t-1-1.8-7-8-7.1">
+            <g id="axis-t-1-1.8-7-8-7"/>
+          </g>
+          <g id="layout::axis-t-2-1.8-11-8-11.1">
+            <g id="axis-t-2-1.8-11-8-11"/>
+          </g>
+          <g id="layout::axis-t-3-1.8-15-8-15.1">
+            <g id="axis-t-3-1.8-15-8-15"/>
+          </g>
+          <g id="layout::axis-t-4-1.8-19-8-19.1">
+            <g id="axis-t-4-1.8-19-8-19"/>
+          </g>
+          <g id="layout::axis-t-5-1.8-23-8-23.1">
+            <g id="axis-t-5-1.8-23-8-23"/>
+          </g>
+          <g id="layout::axis-b-1-4.26-7-26-7.1">
+            <g id="axis-b-1-4.26-7-26-7">
+              <g id="layout::axis-b-1-4.26-7-26-7::GRID.VP.40840.1">
+                <g id="GRID.absoluteGrob.486100">
+                  <g id="layout::axis-b-1-4.26-7-26-7::GRID.VP.40840::axis.1">
+                    <g id="axis">
+                      <g id="layout::axis-b-1-4.26-7-26-7::GRID.VP.40840::axis::axis.1-1-1-1.1">
+                        <g id="axis.1-1-1-1"/>
+                      </g>
+                      <g id="layout::axis-b-1-4.26-7-26-7::GRID.VP.40840::axis::axis.4-1-4-1.1">
+                        <g id="axis.4-1-4-1"/>
+                      </g>
+                      <g id="layout::axis-b-1-4.26-7-26-7::GRID.VP.40840::axis::axis.6-1-6-1.1">
+                        <g id="axis.6-1-6-1"/>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::axis-b-2-4.26-11-26-11.1">
+            <g id="axis-b-2-4.26-11-26-11">
+              <g id="layout::axis-b-2-4.26-11-26-11::GRID.VP.40840.1">
+                <g id="GRID.absoluteGrob.486100">
+                  <g id="layout::axis-b-2-4.26-11-26-11::GRID.VP.40840::axis.1">
+                    <g id="axis">
+                      <g id="layout::axis-b-2-4.26-11-26-11::GRID.VP.40840::axis::axis.1-1-1-1.1">
+                        <g id="axis.1-1-1-1"/>
+                      </g>
+                      <g id="layout::axis-b-2-4.26-11-26-11::GRID.VP.40840::axis::axis.4-1-4-1.1">
+                        <g id="axis.4-1-4-1"/>
+                      </g>
+                      <g id="layout::axis-b-2-4.26-11-26-11::GRID.VP.40840::axis::axis.6-1-6-1.1">
+                        <g id="axis.6-1-6-1"/>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::axis-b-3-4.26-15-26-15.1">
+            <g id="axis-b-3-4.26-15-26-15">
+              <g id="layout::axis-b-3-4.26-15-26-15::GRID.VP.40840.1">
+                <g id="GRID.absoluteGrob.486100">
+                  <g id="layout::axis-b-3-4.26-15-26-15::GRID.VP.40840::axis.1">
+                    <g id="axis">
+                      <g id="layout::axis-b-3-4.26-15-26-15::GRID.VP.40840::axis::axis.1-1-1-1.1">
+                        <g id="axis.1-1-1-1"/>
+                      </g>
+                      <g id="layout::axis-b-3-4.26-15-26-15::GRID.VP.40840::axis::axis.4-1-4-1.1">
+                        <g id="axis.4-1-4-1"/>
+                      </g>
+                      <g id="layout::axis-b-3-4.26-15-26-15::GRID.VP.40840::axis::axis.6-1-6-1.1">
+                        <g id="axis.6-1-6-1"/>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::axis-b-4-4.26-19-26-19.1">
+            <g id="axis-b-4-4.26-19-26-19">
+              <g id="layout::axis-b-4-4.26-19-26-19::GRID.VP.40840.1">
+                <g id="GRID.absoluteGrob.486100">
+                  <g id="layout::axis-b-4-4.26-19-26-19::GRID.VP.40840::axis.1">
+                    <g id="axis">
+                      <g id="layout::axis-b-4-4.26-19-26-19::GRID.VP.40840::axis::axis.1-1-1-1.1">
+                        <g id="axis.1-1-1-1"/>
+                      </g>
+                      <g id="layout::axis-b-4-4.26-19-26-19::GRID.VP.40840::axis::axis.4-1-4-1.1">
+                        <g id="axis.4-1-4-1"/>
+                      </g>
+                      <g id="layout::axis-b-4-4.26-19-26-19::GRID.VP.40840::axis::axis.6-1-6-1.1">
+                        <g id="axis.6-1-6-1"/>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::axis-b-5-4.26-23-26-23.1">
+            <g id="axis-b-5-4.26-23-26-23">
+              <g id="layout::axis-b-5-4.26-23-26-23::GRID.VP.40840.1">
+                <g id="GRID.absoluteGrob.486100">
+                  <g id="layout::axis-b-5-4.26-23-26-23::GRID.VP.40840::axis.1">
+                    <g id="axis">
+                      <g id="layout::axis-b-5-4.26-23-26-23::GRID.VP.40840::axis::axis.1-1-1-1.1">
+                        <g id="axis.1-1-1-1"/>
+                      </g>
+                      <g id="layout::axis-b-5-4.26-23-26-23::GRID.VP.40840::axis::axis.4-1-4-1.1">
+                        <g id="axis.4-1-4-1"/>
+                      </g>
+                      <g id="layout::axis-b-5-4.26-23-26-23::GRID.VP.40840::axis::axis.6-1-6-1.1">
+                        <g id="axis.6-1-6-1"/>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::axis-b-1-3.21-7-21-7.1">
+            <g id="axis-b-1-3.21-7-21-7"/>
+          </g>
+          <g id="layout::axis-b-2-3.21-11-21-11.1">
+            <g id="axis-b-2-3.21-11-21-11"/>
+          </g>
+          <g id="layout::axis-b-3-3.21-15-21-15.1">
+            <g id="axis-b-3-3.21-15-21-15"/>
+          </g>
+          <g id="layout::axis-b-4-3.21-19-21-19.1">
+            <g id="axis-b-4-3.21-19-21-19"/>
+          </g>
+          <g id="layout::axis-b-5-3.21-23-21-23.1">
+            <g id="axis-b-5-3.21-23-21-23"/>
+          </g>
+          <g id="layout::axis-b-1-2.16-7-16-7.1">
+            <g id="axis-b-1-2.16-7-16-7"/>
+          </g>
+          <g id="layout::axis-b-2-2.16-11-16-11.1">
+            <g id="axis-b-2-2.16-11-16-11"/>
+          </g>
+          <g id="layout::axis-b-3-2.16-15-16-15.1">
+            <g id="axis-b-3-2.16-15-16-15"/>
+          </g>
+          <g id="layout::axis-b-4-2.16-19-16-19.1">
+            <g id="axis-b-4-2.16-19-16-19"/>
+          </g>
+          <g id="layout::axis-b-5-2.16-23-16-23.1">
+            <g id="axis-b-5-2.16-23-16-23"/>
+          </g>
+          <g id="layout::axis-b-1-1.11-7-11-7.1">
+            <g id="axis-b-1-1.11-7-11-7"/>
+          </g>
+          <g id="layout::axis-b-2-1.11-11-11-11.1">
+            <g id="axis-b-2-1.11-11-11-11"/>
+          </g>
+          <g id="layout::axis-b-3-1.11-15-11-15.1">
+            <g id="axis-b-3-1.11-15-11-15"/>
+          </g>
+          <g id="layout::axis-b-4-1.11-19-11-19.1">
+            <g id="axis-b-4-1.11-19-11-19"/>
+          </g>
+          <g id="layout::axis-b-5-1.11-23-11-23.1">
+            <g id="axis-b-5-1.11-23-11-23"/>
+          </g>
+          <g id="layout::axis-l-1-5.10-22-10-22.1">
+            <g id="axis-l-1-5.10-22-10-22"/>
+          </g>
+          <g id="layout::axis-l-2-5.15-22-15-22.1">
+            <g id="axis-l-2-5.15-22-15-22"/>
+          </g>
+          <g id="layout::axis-l-3-5.20-22-20-22.1">
+            <g id="axis-l-3-5.20-22-20-22"/>
+          </g>
+          <g id="layout::axis-l-4-5.25-22-25-22.1">
+            <g id="axis-l-4-5.25-22-25-22"/>
+          </g>
+          <g id="layout::axis-l-1-4.10-18-10-18.1">
+            <g id="axis-l-1-4.10-18-10-18"/>
+          </g>
+          <g id="layout::axis-l-2-4.15-18-15-18.1">
+            <g id="axis-l-2-4.15-18-15-18"/>
+          </g>
+          <g id="layout::axis-l-3-4.20-18-20-18.1">
+            <g id="axis-l-3-4.20-18-20-18"/>
+          </g>
+          <g id="layout::axis-l-4-4.25-18-25-18.1">
+            <g id="axis-l-4-4.25-18-25-18"/>
+          </g>
+          <g id="layout::axis-l-1-3.10-14-10-14.1">
+            <g id="axis-l-1-3.10-14-10-14"/>
+          </g>
+          <g id="layout::axis-l-2-3.15-14-15-14.1">
+            <g id="axis-l-2-3.15-14-15-14"/>
+          </g>
+          <g id="layout::axis-l-3-3.20-14-20-14.1">
+            <g id="axis-l-3-3.20-14-20-14"/>
+          </g>
+          <g id="layout::axis-l-4-3.25-14-25-14.1">
+            <g id="axis-l-4-3.25-14-25-14"/>
+          </g>
+          <g id="layout::axis-l-1-2.10-10-10-10.1">
+            <g id="axis-l-1-2.10-10-10-10"/>
+          </g>
+          <g id="layout::axis-l-2-2.15-10-15-10.1">
+            <g id="axis-l-2-2.15-10-15-10"/>
+          </g>
+          <g id="layout::axis-l-3-2.20-10-20-10.1">
+            <g id="axis-l-3-2.20-10-20-10"/>
+          </g>
+          <g id="layout::axis-l-4-2.25-10-25-10.1">
+            <g id="axis-l-4-2.25-10-25-10"/>
+          </g>
+          <g id="layout::axis-l-1-1.10-6-10-6.1">
+            <g id="axis-l-1-1.10-6-10-6">
+              <g id="layout::axis-l-1-1.10-6-10-6::GRID.VP.40860.1">
+                <g id="GRID.absoluteGrob.486120">
+                  <g id="layout::axis-l-1-1.10-6-10-6::GRID.VP.40860::axis.1">
+                    <g id="axis">
+                      <g id="layout::axis-l-1-1.10-6-10-6::GRID.VP.40860::axis::axis.1-3-1-3.1">
+                        <g id="axis.1-3-1-3"/>
+                      </g>
+                      <g id="layout::axis-l-1-1.10-6-10-6::GRID.VP.40860::axis::axis.1-6-1-6.1">
+                        <g id="axis.1-6-1-6"/>
+                      </g>
+                      <g id="layout::axis-l-1-1.10-6-10-6::GRID.VP.40860::axis::axis.1-1-1-1.1">
+                        <g id="axis.1-1-1-1"/>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::axis-l-2-1.15-6-15-6.1">
+            <g id="axis-l-2-1.15-6-15-6">
+              <g id="layout::axis-l-2-1.15-6-15-6::GRID.VP.40860.1">
+                <g id="GRID.absoluteGrob.486120">
+                  <g id="layout::axis-l-2-1.15-6-15-6::GRID.VP.40860::axis.1">
+                    <g id="axis">
+                      <g id="layout::axis-l-2-1.15-6-15-6::GRID.VP.40860::axis::axis.1-3-1-3.1">
+                        <g id="axis.1-3-1-3"/>
+                      </g>
+                      <g id="layout::axis-l-2-1.15-6-15-6::GRID.VP.40860::axis::axis.1-6-1-6.1">
+                        <g id="axis.1-6-1-6"/>
+                      </g>
+                      <g id="layout::axis-l-2-1.15-6-15-6::GRID.VP.40860::axis::axis.1-1-1-1.1">
+                        <g id="axis.1-1-1-1"/>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::axis-l-3-1.20-6-20-6.1">
+            <g id="axis-l-3-1.20-6-20-6">
+              <g id="layout::axis-l-3-1.20-6-20-6::GRID.VP.40860.1">
+                <g id="GRID.absoluteGrob.486120">
+                  <g id="layout::axis-l-3-1.20-6-20-6::GRID.VP.40860::axis.1">
+                    <g id="axis">
+                      <g id="layout::axis-l-3-1.20-6-20-6::GRID.VP.40860::axis::axis.1-3-1-3.1">
+                        <g id="axis.1-3-1-3"/>
+                      </g>
+                      <g id="layout::axis-l-3-1.20-6-20-6::GRID.VP.40860::axis::axis.1-6-1-6.1">
+                        <g id="axis.1-6-1-6"/>
+                      </g>
+                      <g id="layout::axis-l-3-1.20-6-20-6::GRID.VP.40860::axis::axis.1-1-1-1.1">
+                        <g id="axis.1-1-1-1"/>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::axis-l-4-1.25-6-25-6.1">
+            <g id="axis-l-4-1.25-6-25-6">
+              <g id="layout::axis-l-4-1.25-6-25-6::GRID.VP.40860.1">
+                <g id="GRID.absoluteGrob.486120">
+                  <g id="layout::axis-l-4-1.25-6-25-6::GRID.VP.40860::axis.1">
+                    <g id="axis">
+                      <g id="layout::axis-l-4-1.25-6-25-6::GRID.VP.40860::axis::axis.1-3-1-3.1">
+                        <g id="axis.1-3-1-3"/>
+                      </g>
+                      <g id="layout::axis-l-4-1.25-6-25-6::GRID.VP.40860::axis::axis.1-6-1-6.1">
+                        <g id="axis.1-6-1-6"/>
+                      </g>
+                      <g id="layout::axis-l-4-1.25-6-25-6::GRID.VP.40860::axis::axis.1-1-1-1.1">
+                        <g id="axis.1-1-1-1"/>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::axis-r-1-5.10-24-10-24.1">
+            <g id="axis-r-1-5.10-24-10-24"/>
+          </g>
+          <g id="layout::axis-r-2-5.15-24-15-24.1">
+            <g id="axis-r-2-5.15-24-15-24"/>
+          </g>
+          <g id="layout::axis-r-3-5.20-24-20-24.1">
+            <g id="axis-r-3-5.20-24-20-24"/>
+          </g>
+          <g id="layout::axis-r-4-5.25-24-25-24.1">
+            <g id="axis-r-4-5.25-24-25-24"/>
+          </g>
+          <g id="layout::axis-r-1-4.10-20-10-20.1">
+            <g id="axis-r-1-4.10-20-10-20"/>
+          </g>
+          <g id="layout::axis-r-2-4.15-20-15-20.1">
+            <g id="axis-r-2-4.15-20-15-20"/>
+          </g>
+          <g id="layout::axis-r-3-4.20-20-20-20.1">
+            <g id="axis-r-3-4.20-20-20-20"/>
+          </g>
+          <g id="layout::axis-r-4-4.25-20-25-20.1">
+            <g id="axis-r-4-4.25-20-25-20"/>
+          </g>
+          <g id="layout::axis-r-1-3.10-16-10-16.1">
+            <g id="axis-r-1-3.10-16-10-16"/>
+          </g>
+          <g id="layout::axis-r-2-3.15-16-15-16.1">
+            <g id="axis-r-2-3.15-16-15-16"/>
+          </g>
+          <g id="layout::axis-r-3-3.20-16-20-16.1">
+            <g id="axis-r-3-3.20-16-20-16"/>
+          </g>
+          <g id="layout::axis-r-4-3.25-16-25-16.1">
+            <g id="axis-r-4-3.25-16-25-16"/>
+          </g>
+          <g id="layout::axis-r-1-2.10-12-10-12.1">
+            <g id="axis-r-1-2.10-12-10-12"/>
+          </g>
+          <g id="layout::axis-r-2-2.15-12-15-12.1">
+            <g id="axis-r-2-2.15-12-15-12"/>
+          </g>
+          <g id="layout::axis-r-3-2.20-12-20-12.1">
+            <g id="axis-r-3-2.20-12-20-12"/>
+          </g>
+          <g id="layout::axis-r-4-2.25-12-25-12.1">
+            <g id="axis-r-4-2.25-12-25-12"/>
+          </g>
+          <g id="layout::axis-r-1-1.10-8-10-8.1">
+            <g id="axis-r-1-1.10-8-10-8"/>
+          </g>
+          <g id="layout::axis-r-2-1.15-8-15-8.1">
+            <g id="axis-r-2-1.15-8-15-8"/>
+          </g>
+          <g id="layout::axis-r-3-1.20-8-20-8.1">
+            <g id="axis-r-3-1.20-8-20-8"/>
+          </g>
+          <g id="layout::axis-r-4-1.25-8-25-8.1">
+            <g id="axis-r-4-1.25-8-25-8"/>
+          </g>
+          <g id="layout::xlab-t.7-23-7-7.1">
+            <g id="xlab-t.7-23-7-7"/>
+          </g>
+          <g id="layout::xlab-b.27-23-27-7.1">
+            <g id="xlab-b.27-23-27-7"/>
+          </g>
+          <g id="layout::ylab-l.10-5-25-5.1">
+            <g id="ylab-l.10-5-25-5"/>
+          </g>
+          <g id="layout::ylab-r.10-25-25-25.1">
+            <g id="ylab-r.10-25-25-25"/>
+          </g>
+          <g id="layout::guide-box-right.10-27-25-27.1">
+            <g id="guide-box-right.10-27-25-27"/>
+          </g>
+          <g id="layout::guide-box-left.10-3-25-3.1">
+            <g id="guide-box-left.10-3-25-3"/>
+          </g>
+          <g id="layout::guide-box-bottom.29-23-29-7.1">
+            <g id="guide-box-bottom.29-23-29-7"/>
+          </g>
+          <g id="layout::guide-box-top.5-23-5-7.1">
+            <g id="guide-box-top.5-23-5-7"/>
+          </g>
+          <g id="layout::guide-box-inside.10-23-25-7.1">
+            <g id="guide-box-inside.10-23-25-7"/>
+          </g>
+          <g id="layout::subtitle.4-23-4-7.1">
+            <g id="subtitle.4-23-4-7"/>
+          </g>
+          <g id="layout::title.3-23-3-7.1">
+            <g id="title.3-23-3-7"/>
+          </g>
+          <g id="layout::caption.30-23-30-7.1">
+            <g id="caption.30-23-30-7"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
