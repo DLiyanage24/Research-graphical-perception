@@ -126,8 +126,9 @@ ui <- tagList(
             br(), br(),
           
             tags$a(
-              href = "#",
-              onclick = "window.location.replace('https://app.prolific.com/submissions/complete?cc=C18MPT4O'); return false;",
+              href = "https://app.prolific.com/submissions/complete?cc=C18MPT4O",
+              target = "_blank",
+              #onclick = "window.location.replace('https://app.prolific.com/submissions/complete?cc=C18MPT4O'); return false;",
               class = "btn btn-danger",
               style = "width: 260px;",
               "I do not consent (exit)"
@@ -549,14 +550,27 @@ ui <- tagList(
     
               tags$p("We truly appreciate the time and thought you put into completing this study.", style = "font-size:18px;"),
               br(),
-              tags$p("Please click the Submit button below to complete the study and receive your payment.", style = "font-size:20px; font-weight:700; color:#b45309;"),
+              tags$p("Please click the Submit button below to complete the study and receive your payment.This will open Prolific in a new tab.", style = "font-size:20px; font-weight:700; color:#b45309;"),
+              
+              
               
               tags$a(
-                href ="#",
-                onclick = "window.location.replace('https://app.prolific.com/submissions/complete?cc=C15DM49H'); return false;",
+                href ="https://app.prolific.com/submissions/complete?cc=C15DM49H",
+                target = "_blank",
+                #onclick = "window.location.replace('https://app.prolific.com/submissions/complete?cc=C15DM49H'); return false;",
                 class = "btn btn-success btn-lg",
                 style = "margin-top: 16px; width: 100%",
                 "Submit"
+              ),
+              
+              br(),br(),
+              tags$div(style = "margin-top:15px; font-size:19px;",
+                       HTML("<b>Your completion code:</b> C15DM49H")
+              ),
+              
+              tags$p(
+                "If the above button does not work, please copy this code and return to Prolific manually.",
+                style = "font-size:18px;"
               )
             )
           )
