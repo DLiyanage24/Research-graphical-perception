@@ -52,4 +52,5 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
-data/app_data.sqlite
+# Ignore ONLY local database
+data/app_data_local.sqlite
