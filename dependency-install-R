@@ -1,8 +1,9 @@
 #!/usr/bin/Rscript
 
-install.packages(c("devtools", "remotes", "tidyverse", "shiny", "r2d3", "shinyjs", "DBI", "RSQLite", "jsonlite"))
+install.packages("pak")
+pak::pkg_install(c("devtools", "remotes", "tidyverse", "shiny", "r2d3", "shinyjs", "DBI", "RSQLite", "jsonlite"))
 
 # timeR just was removed from CRAN on 2026-03-20
-devtools::install_github("yusuzech/timeR")
+pak::pak("yusuzech/timeR")
 
-devtools::install_github("abbey-thomas/speechcollectr")
+pak::pak("abbey-thomas/speechcollectr")

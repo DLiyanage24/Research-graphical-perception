@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source /venv/bin/activate
+source venv/bin/activate
 
 
 ls data/recordings/ | sort | sed -e 's/\.wav$//' > audioFileList
@@ -18,7 +18,7 @@ echo "Transcribing ${#toTranscribe[@]} new files"
 
 for file in $toTranscribe; do
     echo "Transcribing $file.wav to data/transcripts/$file.json"
-    whisper "data/recordings/$file.wav" --fp16 False --model small --language English --output_dir data/transcripts/ --output_format json
+    venv/bin/whisper "data/recordings/$file.wav" --fp16 False --model small --language English --output_dir data/transcripts/ --output_format json
 done
 
 rm audioFileList transcriptFileList

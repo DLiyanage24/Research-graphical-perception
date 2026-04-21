@@ -1,6 +1,6 @@
 #!/usr/bin/Rscript
 # Sorry this isn't elegant but necessary for the cron tab to work
-setwd("~/Documents/Students/Liyanage-Dinuwanthi/Research-graphical-perception/")
+setwd("/server/faucet/graphical-testing/")
 
 system2("source ./venv/bin/activate; ./whisper-transcribe", wait = F)
 
