@@ -11,7 +11,8 @@ toTranscribe=$(comm -23 audioFileList transcriptFileList)
 # Remove empty strings
 echo "${toTranscribe[@]}"
 toTranscribe=($(for h in ${toTranscribe[@]}; do [ "$h" != "$toTranscribe" ] && echo $h; done ))
-echo "${toTranscribe[@]}"
+
+echo "Files to transcribe: ${toTranscribe[@]}"
 
 
 echo "Transcribing ${#toTranscribe[@]} new files"
