@@ -1,6 +1,6 @@
 #!/usr/bin/Rscript
 # Sorry this isn't elegant but necessary for the cron tab to work
-setwd("/server/faucet/graphical-testing/")
+setwd("/server/shiny/apps/measure-graphics/")
 
 system2("./whisper-transcribe", wait = F)
 
