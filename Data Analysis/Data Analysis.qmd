@@ -1,0 +1,201 @@
+---
+format:
+  pdf:
+    df-print: default
+    fig-cap-location: bottom
+    fontsize: 10pt
+    geometry: margin=1in
+  html: default
+
+editor:
+  markdown:
+    wrap: sentence
+---
+
+# Quantitaive Analysis
+
+## Data Summary
+
+- Completed participants: 500
+- Trials per participant: 12
+- Methods: Talk, Highlight, Text
+- Plot types: Box plot, Scatter plot
+
+## 1. Participant Demographics
+
+![*Gender distribution*](figures/gender.png){#fig-gender width="55%"}
+
+The sample consisted of 57.8% female participants and 41.4% male participants, with less than 1% preferring not to disclose their gender identity.
+Thus, the participant pool was relatively balanced, although females were somewhat more represented than males.
+
+![*Age distribution*](figures/age.png){#fig-age width="65%"}
+
+The participant sample included a broad range of ages, with the largest proportion of participants between 31–35 years old (18.2%).
+Most participants were between 19 and 50 years of age, while relatively few participants were younger than 19 (0.2%) or older than 60 (5.6%).
+
+![*Education Level*](figures/education.png){#fig-edu width="65%"}
+
+Participants represented a range of educational backgrounds.
+The largest group held an undergraduate degree (39.2%), followed by graduate degree holders (22.4%) and participants with some undergraduate coursework (20.8%).
+Overall, the sample was relatively highly educated, with more than 60% of participants having completed at least an undergraduate degree.
+
+![*Color Blindness Status*](figures/color.png){#fig-col width="65%"}
+
+Most participants reported that they were not color blind (96.8%).
+A small proportion reported being color blind (1.4%), while 1.8% were unsure.
+Therefore, the sample was overwhelmingly composed of participants without self-reported color vision deficiencies.
+
+
+## 2. Selection Accuracy
+
+Selection accuracy was defined as the correct identification of the target plot within a lineup. A value of 1 was assigned when the participant selected the true target plot, and a value of 0 was assigned otherwise.
+
+### 2.1 Overall mean accuracy
+
+| Accuracy |      SE | Lower | Upper |
+|----------|--------:|------:|------:|
+| 0.343    | 0.00613 | 0.331 | 0.355 |
+
+Overall, participants correctly identified the target plot in 34.3% of trials (95% CI: 33.1%–35.5%).
+This indicates that approximately one-third of lineup tasks were completed correctly across all methods and plot types.
+
+### 2.2 Accuracy by method: Talk, Highlight, Text
+
+|    Method | Accuracy |     SE | Lower | Upper |
+|----------:|---------:|-------:|------:|------:|
+| Highlight |    0.364 | 0.0108 | 0.343 | 0.385 |
+|      Talk |    0.313 | 0.0104 | 0.293 | 0.333 |
+|      Text |    0.353 | 0.0107 | 0.332 | 0.373 |
+
+Selection accuracy varied across methods.
+The Highlight method achieved the highest accuracy (36.4%), followed by the Text method (35.3%), while the Talk method had the lowest accuracy (31.3%).
+Although differences were modest, participants appeared to perform best when using the highlighting task.
+
+### 2.3 Accuracy by plot type: Box plot, Scatter plot
+
+|    Plot type | Accuracy |      SE | Lower | Upper |
+|-------------:|---------:|--------:|------:|------:|
+|     Box plot |    0.351 | 0.00712 | 0.337 | 0.365 |
+| Scatter plot |    0.319 |  0.0120 | 0.295 | 0.342 |
+
+Participants were more accurate when evaluating box plots (35.1%) than scatter plots (31.9%).
+This suggests that the target signal may have been somewhat easier to identify in box plot lineups than in scatter plot lineups.
+
+### 2.4 Accuracy by method × plot type
+
+| Plot type |    Method | Accuracy |     SE | Lower | Upper |
+|-----------|----------:|---------:|-------:|------:|------:|
+| Box plot  | Highlight |    0.379 | 0.0125 | 0.355 | 0.404 |
+| Box plot  |      Talk |    0.316 | 0.0120 | 0.292 | 0.340 |
+| Box plot  |      Text |    0.359 | 0.0124 | 0.334 | 0.383 |
+| Scatter   | Highlight |    0.318 | 0.0208 | 0.277 | 0.359 |
+| Scatter   |      Talk |    0.304 | 0.0206 | 0.264 | 0.344 |
+| Scatter   |      Text |    0.334 | 0.0211 | 0.293 | 0.375 |
+
+
+For box plots, the Highlight method produced the highest accuracy (37.9%), followed by Text (35.9%) and Talk (31.6%).
+For scatter plots, accuracy was lower overall, with Text (33.4%) and Highlight (31.8%) showing similar performance, and Talk remaining the lowest (30.4%).
+Across all methods, box plots yielded higher accuracy than scatter plots.
+
+
+### 2.5 Accuracy Across Trial Sequence
+
+![*Accuracy by trial number*](figures/Acc_TrialNo.png){#fig-acctrial width="65%"}
+
+Accuracy remained relatively stable throughout the 12 trials, ranging from approximately 32% to 37%.
+There was no clear upward or downward trend across the trial sequence, suggesting little evidence of either a learning effect or a fatigue effect.
+Participants did not appear to become substantially more accurate as they gained experience with the task, nor did their performance decline over time.
+Overall, performance remained consistent across the study.
+
+
+## 3. Response Times
+
+### 3.1 Total Completion Time per Participant
+
+| Mean time | Median time |   SD |  IQR |
+|-----------|------------:|-----:|-----:|
+| 15.7      |        14.3 | 7.51 | 9.52 |
+
+Participants spent an average of 15.7 minutes completing all 12 trials, with a median completion time of 14.3 minutes.
+Completion times varied considerably across participants (SD = 7.51 minutes), indicating substantial individual differences in task duration.
+
+### 3.2 Response time per trial (in minutes)
+
+| Mean time | Median time |       SD |       IQR |
+|-----------|------------:|---------:|----------:|
+| 1.309614  |    0.996903 | 1.131679 | 0.9965211 |
+
+Across all trials, participants spent an average of 1.31 minutes per trial, with a median of approximately 1.00 minute.
+
+### 3.3 Response time by method
+
+| Method    | Mean time | Median time |   SD |   IQR |
+|-----------|-----------|------------:|-----:|------:|
+| Highlight | 1.02      |       0.738 | 1.02 | 0.813 |
+| Talk      | 1.43      |        1.10 | 1.19 | 0.972 |
+| Text      | 1.48      |        1.18 | 1.12 |  1.10 |
+
+Response times differed across methods.
+Participants completed Highlight tasks most quickly (median = 0.74 minutes), while Talk (median = 1.10 minutes) and Text (median = 1.18 minutes) required more time.
+This pattern suggests that selecting and highlighting regions generally required less time than providing spoken or written explanations.
+
+### 3.4 Response time by plot type
+
+| Plot type    | Mean time | Median time |   SD |   IQR |
+|--------------|-----------|------------:|-----:|------:|
+| Box plot     | 1.31      |       0.998 | 1.16 |  1.02 |
+| Scatter plot | 1.30      |       0.991 | 1.06 | 0.944 |
+
+Response times were nearly identical for box plots and scatter plots.
+Both plot types required approximately one minute per trial on average, suggesting that plot type had little impact on the time participants spent completing a task.
+
+### 3.5 Response time by method and plot type
+
+| Method    | Plot type    | Mean time | Median time |    SD |   IQR |
+|-----------|--------------|-----------|------------:|------:|------:|
+| Highlight | Box plot     | 1.02      |       0.738 |  1.04 | 0.826 |
+| Highlight | Scatter plot | 1.02      |       0.739 | 0.941 | 0.783 |
+| Talk      | Box plot     | 1.44      |        1.10 |  1.23 | 0.983 |
+| Talk      | Scatter plot | 1.42      |        1.10 |  1.06 | 0.942 |
+| Text      | Box plot     | 1.48      |        1.19 |  1.13 |  1.10 |
+| Text      | Scatter plot | 1.46      |        1.15 |  1.11 |  1.06 |
+
+The pattern of response times was consistent across plot types.
+Highlight tasks were completed most quickly for both box plots and scatter plots, while Talk and Text tasks required more time.
+Differences between box plots and scatter plots within a given method were minimal, indicating that method had a stronger influence on response time than plot type.
+
+
+### 3.6 Response time by trial sequence
+
+![*Response time by trial number*](figures/RT_trial.png){#fig-RTtrial width="65%"}
+
+Response time decreased steadily across the trial sequence.
+Participants spent the most time on the first trial (approximately 2.2 minutes on average), after which response times declined rapidly during the first five trials and then stabilized around 1.0–1.2 minutes per trial.
+This pattern suggests that participants became more familiar with the task as they progressed through the study, leading to faster completion times.
+
+
+## 4. Relationship Between Accuracy and Response Time
+
+![*Accuracy vs Response Time*](figures/scatter.png){#fig-scatter width="65%"}
+
+Participants who spent more time on the task were not consistently more accurate than those who responded more quickly. While the fitted trend line suggests a slight negative association between response time and accuracy, the relationship appears weak, with substantial variability in accuracy observed across all response times. Overall, spending additional time on a trial did not appear to be associated with noticeably higher performance.
+
+
+## 5. Method Agreement (Same dataset, same participant, three methods)
+
+To examine agreement among methods, accuracy outcomes were compared for the same participant evaluating the same data set using Talk, Highlight, and Text methods.
+
+| Interpretation                     | Percentage |
+|------------------------------------|------------|
+| Incorrect in all three methods     | 47.8%      |
+| Correct in all three methods       | 16.8%      |
+| Correct only in Highlight          | 7.6%       |
+| Correct in Highlight and Text only | 7.05%      |
+| Correct only in Text               | 6.25       |
+| Correct in Talk and Text only      | 5.15%      |
+| Correct in Talk and Highlight only | 4.75%      |
+| Correct only in Talk               | 4.4%       |
+
+The most common outcome was that all three methods failed to identify the target (47.8%), while all three methods correctly identified the targett in 16.8% of cases.
+
+Several disagreement patterns were also observed. Highlight-only correct responses (7.6%) occurred more frequently than Talk-only correct responses (4.4%) and slightly more frequently than Text-only correct responses (6.3%). Additionally, Highlight and Text were jointly correct while Talk was incorrect in 7.1% of cases. These findings suggest that the three methods do not always identify the same targets and that the Highlight method may capture information that is not always reflected in participants' verbal or written responses.
